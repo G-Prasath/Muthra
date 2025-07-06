@@ -74,12 +74,132 @@
                     </div>
                 </a>
 
-                <div id="google_translate_element"></div>
+                <!-- ====================== Language Selector START ======================  -->
+                <div id="google_translate_element" style="display:none;"></div>
+
+
+                <!-- ====================== Language Selector END ======================  -->
+
 
             </div>
 
 
 
+            <!-- ----------- Lang Selector ----------- -->
+            <div class="relative inline-block text-left notranslate">
+                <select id="customLangSelect"
+                    class="text-sm px-2 py-1 border-2 rounded-md border-green-600 focus:outline-none focus:ring-0 snap-none">
+                    <option value="af" class="lang-btn">AF</option>
+                    <option value="sq" class="lang-btn">SQ</option>
+                    <option value="am" class="lang-btn">AM</option>
+                    <option value="ar" class="lang-btn">AR</option>
+                    <option value="hy" class="lang-btn">HY</option>
+                    <option value="az" class="lang-btn">AZ</option>
+                    <option value="eu" class="lang-btn">EU</option>
+                    <option value="be" class="lang-btn">BE</option>
+                    <option value="bn" class="lang-btn">BN</option>
+                    <option value="bs" class="lang-btn">BS</option>
+                    <option value="bg" class="lang-btn">BG</option>
+                    <option value="ca" class="lang-btn">CA</option>
+                    <!-- <option value="ceb" class="lang-btn">CEB</option> -->
+                    <!-- <option value="zh-CN" class="lang-btn">ZH-CN</option>
+                        <option value="zh-TW" class="lang-btn">ZH-TW</option> -->
+                    <option value="co" class="lang-btn">CO</option>
+                    <option value="hr" class="lang-btn">HR</option>
+                    <option value="cs" class="lang-btn">CS</option>
+                    <option value="da" class="lang-btn">DA</option>
+                    <option value="nl" class="lang-btn">NL</option>
+                    <option value="en" class="lang-btn" selected>EN</option>
+                    <option value="eo" class="lang-btn">EO</option>
+                    <option value="et" class="lang-btn">ET</option>
+                    <option value="fi" class="lang-btn">FI</option>
+                    <option value="fr" class="lang-btn">FR</option>
+                    <option value="fy" class="lang-btn">FY</option>
+                    <option value="gl" class="lang-btn">GL</option>
+                    <option value="ka" class="lang-btn">KA</option>
+                    <option value="de" class="lang-btn">DE</option>
+                    <option value="el" class="lang-btn">EL</option>
+                    <option value="gu" class="lang-btn">GU</option>
+                    <option value="ht" class="lang-btn">HT</option>
+                    <option value="ha" class="lang-btn">HA</option>
+                    <!-- <option value="haw" class="lang-btn">HAW</option> -->
+                    <option value="he" class="lang-btn">HE</option>
+                    <option value="hi" class="lang-btn">HI</option>
+                    <!-- <option value="hmn" class="lang-btn">HMN</option> -->
+                    <option value="hu" class="lang-btn">HU</option>
+                    <option value="is" class="lang-btn">IS</option>
+                    <option value="ig" class="lang-btn">IG</option>
+                    <option value="id" class="lang-btn">ID</option>
+                    <option value="ga" class="lang-btn">GA</option>
+                    <option value="it" class="lang-btn">IT</option>
+                    <option value="ja" class="lang-btn">JA</option>
+                    <option value="jv" class="lang-btn">JV</option>
+                    <option value="kn" class="lang-btn">KN</option>
+                    <option value="kk" class="lang-btn">KK</option>
+                    <option value="km" class="lang-btn">KM</option>
+                    <option value="rw" class="lang-btn">RW</option>
+                    <option value="ko" class="lang-btn">KO</option>
+                    <option value="ku" class="lang-btn">KU</option>
+                    <option value="ky" class="lang-btn">KY</option>
+                    <option value="lo" class="lang-btn">LO</option>
+                    <option value="la" class="lang-btn">LA</option>
+                    <option value="lv" class="lang-btn">LV</option>
+                    <option value="lt" class="lang-btn">LT</option>
+                    <option value="lb" class="lang-btn">LB</option>
+                    <option value="mk" class="lang-btn">MK</option>
+                    <option value="mg" class="lang-btn">MG</option>
+                    <option value="ms" class="lang-btn">MS</option>
+                    <option value="ml" class="lang-btn">ML</option>
+                    <option value="mt" class="lang-btn">MT</option>
+                    <option value="mi" class="lang-btn">MI</option>
+                    <option value="mr" class="lang-btn">MR</option>
+                    <option value="mn" class="lang-btn">MN</option>
+                    <option value="my" class="lang-btn">MY</option>
+                    <option value="ne" class="lang-btn">NE</option>
+                    <option value="no" class="lang-btn">NO</option>
+                    <option value="ny" class="lang-btn">NY</option>
+                    <option value="or" class="lang-btn">OR</option>
+                    <option value="ps" class="lang-btn">PS</option>
+                    <option value="fa" class="lang-btn">FA</option>
+                    <option value="pl" class="lang-btn">PL</option>
+                    <option value="pt" class="lang-btn">PT</option>
+                    <option value="pa" class="lang-btn">PA</option>
+                    <option value="ro" class="lang-btn">RO</option>
+                    <option value="ru" class="lang-btn">RU</option>
+                    <option value="sm" class="lang-btn">SM</option>
+                    <option value="gd" class="lang-btn">GD</option>
+                    <option value="sr" class="lang-btn">SR</option>
+                    <option value="st" class="lang-btn">ST</option>
+                    <option value="sn" class="lang-btn">SN</option>
+                    <option value="sd" class="lang-btn">SD</option>
+                    <option value="si" class="lang-btn">SI</option>
+                    <option value="sk" class="lang-btn">SK</option>
+                    <option value="sl" class="lang-btn">SL</option>
+                    <option value="so" class="lang-btn">SO</option>
+                    <option value="es" class="lang-btn">ES</option>
+                    <option value="su" class="lang-btn">SU</option>
+                    <option value="sw" class="lang-btn">SW</option>
+                    <option value="sv" class="lang-btn">SV</option>
+                    <option value="tg" class="lang-btn">TG</option>
+                    <option value="ta" class="lang-btn">TA</option>
+                    <option value="tt" class="lang-btn">TT</option>
+                    <option value="te" class="lang-btn">TE</option>
+                    <option value="th" class="lang-btn">TH</option>
+                    <option value="tr" class="lang-btn">TR</option>
+                    <option value="tk" class="lang-btn">TK</option>
+                    <option value="uk" class="lang-btn">UK</option>
+                    <option value="ur" class="lang-btn">UR</option>
+                    <option value="ug" class="lang-btn">UG</option>
+                    <option value="uz" class="lang-btn">UZ</option>
+                    <option value="vi" class="lang-btn">VI</option>
+                    <option value="cy" class="lang-btn">CY</option>
+                    <option value="xh" class="lang-btn">XH</option>
+                    <option value="yi" class="lang-btn">YI</option>
+                    <option value="yo" class="lang-btn">YO</option>
+                    <option value="zu" class="lang-btn">ZU</option>
+
+                </select>
+            </div>
             <!-- Mobile menu button -->
             <div class="lg:hidden">
                 <button
@@ -158,3 +278,9 @@
         </a>
     </div>
 </nav>
+
+
+
+<script>
+
+</script>

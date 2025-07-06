@@ -274,6 +274,9 @@ document.addEventListener("DOMContentLoaded", function () {
   startSlideShow();
   // ======================== Banner End ============================
 
+
+
+
   // ========================= Language Switcher Start =========================
 
   function hidePoweredByText() {

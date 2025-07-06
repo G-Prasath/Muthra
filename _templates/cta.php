@@ -1,10 +1,10 @@
-<div class="bg-gray-100 dark:bg-gray-800 py-8 px-4 sm:px-6 lg:px-8">
+<div class="bg-gray-800 dark:bg-gray-800 py-8 px-4 sm:px-6 lg:px-8">
     <div class="max-w-7xl mx-auto">
         <div class="max-w-3xl mx-auto text-center">
-            <h2 class="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl">
+            <h2 class="text-3xl font-extrabold text-white dark:text-white sm:text-4xl">
                 Call to Action
             </h2>
-            <p class="mt-3 text-xl text-gray-500 dark:text-gray-400 sm:mt-4">
+            <p class="mt-3 text-xl text-gray-500 text-white sm:mt-4">
                 Consider buying me a support my work!
             </p>
             <div class="mt-8 flex justify-center md:space-x-4 md:flex-row flex-col">
