@@ -193,3 +193,37 @@ body {
 }
 
 /* ================== Hero Banner End ==================  */
+
+/* ==================== Language Switcher ==================   */
+body > .skiptranslate {
+  display: none !important;
+}
+
+body {
+  top: 0 !important;
+}
+
+.goog-te-gadget > span {
+  display: none !important;
+}
+
+#google_translate_element select {
+  color: #374151;
+  font-weight: 550;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid rgb(0, 155, 54);
+
+  /* Classic font */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition: all 0.3s ease;
+  width: 150px !important;
+  outline: none !important;
+  
+
+}

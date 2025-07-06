@@ -223,7 +223,6 @@ document.addEventListener("DOMContentLoaded", function () {
     startSlideShow();
   });
 
-
   // Pause on hover
   const slider = document.getElementById("heroSlider");
   slider.addEventListener("mouseenter", stopSlideShow);
@@ -274,4 +273,36 @@ document.addEventListener("DOMContentLoaded", function () {
   showSlide(0);
   startSlideShow();
   // ======================== Banner End ============================
+
+  // ========================= Language Switcher Start =========================
+
+  function hidePoweredByText() {
+    let parentElements = document.querySelectorAll(
+      "#google_translate_element .goog-te-gadget"
+    );
+
+    parentElements.forEach((parent) => {
+      parent.childNodes.forEach((node) => {
+        // Check if it's a plain text node and contains "Powered by"
+        if (
+          node.nodeType === 3 &&
+          node.nodeValue.trim().includes("Powered by")
+        ) {
+          node.nodeValue = ""; // Remove the text
+        }
+      });
+    });
+  }
+
+  // Run once at start
+  hidePoweredByText();
+
+  // Use MutationObserver to catch widget reloads and language changes
+  const observer = new MutationObserver(() => {
+    hidePoweredByText();
+  });
+
+  observer.observe(document.body, { childList: true, subtree: true });
 });
+
+

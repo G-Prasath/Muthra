@@ -14,26 +14,26 @@
 
             <!-- Desktop Navigation -->
             <div class="hidden lg:flex items-center justify-between">
-                <div class="ml-10 flex items-baseline space-x-1">
+                <div class="ml-10 flex items-baseline">
                     <a href="index.php"
-                        class="text-gray-700 hover:text-green-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
+                        class="text-gray-700 hover:text-green-600 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
                         Home
                     </a>
 
                     <a href="about_us.php"
-                        class="text-gray-700 hover:text-green-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
+                        class="text-gray-700 hover:text-green-600 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
                         About us
                     </a>
 
                     <a href="intro.php"
-                        class="text-gray-700 hover:text-green-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
+                        class="text-gray-700 hover:text-green-600 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
                         Intro
                     </a>
 
                     <!-- Get Involved Dropdown -->
                     <div class="relative dropdown">
                         <button
-                            class="text-gray-700 hover:text-green-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-green-50 flex items-center">
+                            class="text-gray-700 hover:text-green-600 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-green-50 flex items-center">
                             Courses
                             <i
                                 class="fas fa-chevron-down ml-2 text-xs dropdown-arrow transition-transform duration-200"></i>
@@ -48,7 +48,7 @@
                                 class="flex items-center text-gray-700 text-sm p-2 hover:bg-green-50 transition-all duration-200">
                                 Comming Soon ...
                             </a>
-                             <a href="muthra_course.php"
+                            <a href="muthra_course.php"
                                 class="flex items-center text-gray-700 text-sm p-2 hover:bg-green-50 transition-all duration-200">
                                 Comming Soon ...
                             </a>
@@ -56,11 +56,11 @@
                     </div>
 
                     <a href="testimonials.php"
-                        class="text-gray-700 hover:text-green-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
+                        class="text-gray-700 hover:text-green-600 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
                         Testimonials
                     </a>
                     <a href="contact_us.php"
-                        class="text-gray-700 hover:text-green-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
+                        class="text-gray-700 hover:text-green-600 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
                         Contact us
                     </a>
                 </div>
@@ -73,7 +73,12 @@
                         <p class="text-xs text-gray-600">Make a contribution</p>
                     </div>
                 </a>
+
+                <div id="google_translate_element"></div>
+
             </div>
+
+
 
             <!-- Mobile menu button -->
             <div class="lg:hidden">
@@ -123,11 +128,13 @@
                 </div>
                 <div class="nested-menu ml-4 mt-2 space-y-1 border-l border-gray-200 pl-4">
                     <a href="muthra_course.php"
-                        class="text-gray-600 hover:text-green-600 hover:bg-blue-50 block px-3 py-2 rounded-md text-sm transition-all duration-200">Comming soon ...</a>
+                        class="text-gray-600 hover:text-green-600 hover:bg-blue-50 block px-3 py-2 rounded-md text-sm transition-all duration-200">Comming
+                        soon ...</a>
                 </div>
                 <div class="nested-menu ml-4 mt-2 space-y-1 border-l border-gray-200 pl-4">
                     <a href="muthra_course.php"
-                        class="text-gray-600 hover:text-green-600 hover:bg-blue-50 block px-3 py-2 rounded-md text-sm transition-all duration-200">Comming soon ...</a>
+                        class="text-gray-600 hover:text-green-600 hover:bg-blue-50 block px-3 py-2 rounded-md text-sm transition-all duration-200">Comming
+                        soon ...</a>
                 </div>
             </div>
 

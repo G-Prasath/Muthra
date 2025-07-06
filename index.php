@@ -74,7 +74,8 @@
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-center md:space-x-12">
             <!-- Text Content -->
             <div class="w-full md:w-1/2">
-                <h1 class="text-4xl font-bold mb-4 border-b-4 border-blue-500 inline-block">About Us</h1>
+                <h1 class="md:text-4xl text-xl font-bold mb-4 border-b-4 border-blue-500 inline-block">About Us</h1>
+
                 <p class="mb-4 text-gray-300 leading-relaxed text-justify">
                     We are committed to delivering innovative solutions with a focus on quality and customer
                     satisfaction. Our team of experts works tirelessly to bring your ideas to life and help your
@@ -128,6 +129,18 @@
 
 
     <script defer src="./js/script.js"></script>
+    <script defer>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                { pageLanguage: "en" },
+                "google_translate_element"
+            );
+        }
+    </script>
+
+    <script defer type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>;
+
 </body>
 
 </html>

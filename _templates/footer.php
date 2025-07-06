@@ -18,7 +18,7 @@
 
         <!-- Quick Links -->
         <div>
-            <p class="text-xl text-red-600 mb-6 border-b-2 border-pink-600 pb-2">Quick Links</p>
+            <p class="text-xl text-red-600 mb-6 border-b-2 border-red-600 pb-2">Quick Links</p>
             <ul class="space-y-3">
                 <li><a href="donate.php"
                         class="flex items-center gap-2 opacity-90 hover:opacity-100 hover:translate-x-1 transition text-gray-700 text-md font-medium"><i
@@ -34,7 +34,7 @@
 
         <!-- Our Services -->
         <div>
-            <h3 class="text-xl text-red-600 mb-6 border-b-2 border-pink-600 pb-2">Usefull Links</h3>
+            <h3 class="text-xl text-red-600 mb-6 border-b-2 border-red-600 pb-2">Usefull Links</h3>
             <ul class="space-y-3">
                 <li><a href="#"
                         class="flex items-center gap-2 opacity-90 hover:opacity-100 hover:translate-x-1 transition text-gray-700 text-md font-medium"><i
@@ -50,7 +50,7 @@
 
         <!-- Contact Us -->
         <div>
-            <h3 class="text-xl text-red-600 mb-6 border-b-2 border-pink-600 pb-2">Contact Us</h3>
+            <h3 class="text-xl text-red-600 mb-6 border-b-2 border-red-600 pb-2">Contact Us</h3>
             <ul class="space-y-4 mb-6">
                 <li class="flex items-start gap-4">
                     <i class="fas fa-map-marker-alt text-red-600 mt-1"></i>
