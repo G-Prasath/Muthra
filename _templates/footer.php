@@ -1,5 +1,5 @@
 <!-- Footer Section -->
-<footer class="relative bg-white pt-16 pb-0">
+<footer class="relative bg-white pt-16 pb-4">
     <!-- Wave SVG background -->
     <div class="absolute -top-12 left-0 w-full h-12"
         style="background-image: url('data:image/svg+xml;utf8,<svg viewBox=...'); background-size: cover;"></div>

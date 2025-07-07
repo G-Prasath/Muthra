@@ -5,14 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hope Foundation - Charity & Trust</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-
+    <?php include_once './_templates/head.php'; ?>
 </head>
 
 <body class="bg-gray-50">
@@ -110,8 +104,10 @@
 
 
     <!-- =========================== Video Section Start =========================  -->
-    <section data-aos="zoom-in" data-aos-duration="1000"  class="bg-[#f2bd3b] flex justify-center items-center md:py-16 md:px-8 py-4 px-2">
-        <div class="flex gap-4 p-4 bg-gray-200 rounded" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
+    <section data-aos="zoom-in" data-aos-duration="1000"
+        class="bg-[#f2bd3b] flex justify-center items-center md:py-16 md:px-8 py-4 px-2">
+        <div class="flex gap-4 p-4 bg-gray-200 rounded" data-aos="zoom-in" data-aos-delay="500"
+            data-aos-duration="1000">
             <video
                 src="https://raw.githubusercontent.com/jonathan-eduardo/JavaScript30/main/challenges/28%20-%20Video%20Speed%20Controller/video.mp4"
                 class="rounded" controls
@@ -128,41 +124,7 @@
 
     <?php include_once './_templates/floating.php'; ?>
 
-
-
-    <script defer src="./js/script.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            once: true,
-        });
-
-    </script>
-
-
-
-    <script defer>
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({ pageLanguage: 'en', autoDisplay: false }, 'google_translate_element');
-        }
-
-        document.addEventListener('DOMContentLoaded', function () {
-            const langSelect = document.getElementById('customLangSelect');
-
-            langSelect.addEventListener('change', function () {
-                const selectedLang = this.value;
-
-                const googleSelect = document.querySelector('select.goog-te-combo');
-                if (googleSelect) {
-                    googleSelect.value = selectedLang;
-                    googleSelect.dispatchEvent(new Event('change'));
-                }
-            });
-        });
-    </script>
-
-    <script defer type="text/javascript"
-        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>;
+    <?php include_once './_templates/script.php'; ?>
 
 
 </body>
