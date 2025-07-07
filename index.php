@@ -10,6 +10,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 </head>
@@ -20,7 +21,7 @@
 
 
     <!-- ======================== Banner Start ========================= -->
-    <section class="banner-slider relative md:h-screen w-full aspect-video" id="heroSlider">
+    <section data-aos="fade-up" class="banner-slider relative md:h-screen w-full aspect-video" id="heroSlider">
         <!-- Slide 1 - Fade Effect -->
         <div class="slide fade-effect active"
             style="background-image: url('https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop');">
@@ -74,22 +75,23 @@
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-center md:space-x-12">
             <!-- Text Content -->
             <div class="w-full md:w-1/2">
-                <h1 class="md:text-4xl text-xl font-bold mb-4 border-b-4 border-blue-500 inline-block">About Us</h1>
+                <h1 class="md:text-4xl text-xl font-bold mb-4 border-b-4 border-blue-500 inline-block"
+                    data-aos="fade-up" data-aos-duration="2500">About Us</h1>
 
-                <p class="mb-4 text-gray-300 leading-relaxed text-justify">
+                <p class="mb-4 text-gray-300 leading-relaxed text-justify" data-aos="fade-up" data-aos-duration="2000">
                     We are committed to delivering innovative solutions with a focus on quality and customer
                     satisfaction. Our team of experts works tirelessly to bring your ideas to life and help your
                     business grow. Join us on our journey to make a difference in the industry through creativity,
                     dedication, and
                     excellence.
                 </p>
-                <p class="mb-4 text-gray-300 leading-relaxed text-justify">
+                <p class="mb-4 text-gray-300 leading-relaxed text-justify" data-aos="fade-up" data-aos-duration="2000">
                     We are committed to delivering innovative solutions with a focus on quality and customer
                     satisfaction. Our team of experts works tirelessly to bring your ideas to life and help your
                     business grow.
                 </p>
 
-                <div class="flex items-center justify-end w-full">
+                <div class="flex items-center justify-end w-full" data-aos="fade-up" data-aos-duration="1000">
                     <a href="#contact"
                         class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg mt-8 transition duration-300">
                         Book
@@ -98,7 +100,7 @@
             </div>
 
             <!-- Image -->
-            <div class="w-full md:w-1/2 mt-8 md:mb-0">
+            <div class="w-full md:w-1/2 mt-8 md:mb-0" data-aos="zoom-in" data-aos-duration="1500">
                 <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.4&auto=format&fit=crop&w=800&q=80"
                     alt="Our Team" class="rounded-lg shadow-lg object-cover w-full h-full" />
             </div>
@@ -108,8 +110,8 @@
 
 
     <!-- =========================== Video Section Start =========================  -->
-    <section class="bg-[#f2bd3b] flex justify-center items-center md:py-16 md:px-8 py-4 px-2">
-        <div class="flex gap-4 p-4 bg-gray-200 rounded">
+    <section data-aos="zoom-in" data-aos-duration="1000"  class="bg-[#f2bd3b] flex justify-center items-center md:py-16 md:px-8 py-4 px-2">
+        <div class="flex gap-4 p-4 bg-gray-200 rounded" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
             <video
                 src="https://raw.githubusercontent.com/jonathan-eduardo/JavaScript30/main/challenges/28%20-%20Video%20Speed%20Controller/video.mp4"
                 class="rounded" controls
@@ -129,6 +131,16 @@
 
 
     <script defer src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+
+    </script>
+
+
+
     <script defer>
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({ pageLanguage: 'en', autoDisplay: false }, 'google_translate_element');

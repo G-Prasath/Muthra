@@ -1,12 +1,12 @@
 <!-- Footer Section -->
-<footer class="relative bg-white pt-16 pb-4">
+<footer class="relative bg-white pt-16 pb-0">
     <!-- Wave SVG background -->
     <div class="absolute -top-12 left-0 w-full h-12"
         style="background-image: url('data:image/svg+xml;utf8,<svg viewBox=...'); background-size: cover;"></div>
 
     <div class="max-w-7xl mx-auto px-5 grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-10 relative z-10">
         <!-- About -->
-        <div>
+        <div data-aos="fade-up" data-aos-duration="1000">
             <div class="text-2xl font-bold text-red-600 mb-4">
                 <img src="./img/logo.avif" alt="logo" class="h-[80px] w-auto">
             </div>
@@ -17,7 +17,7 @@
         </div>
 
         <!-- Quick Links -->
-        <div>
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
             <p class="text-xl text-red-600 mb-6 border-b-2 border-red-600 pb-2">Quick Links</p>
             <ul class="space-y-3">
                 <li><a href="donate.php"
@@ -33,7 +33,7 @@
         </div>
 
         <!-- Our Services -->
-        <div>
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
             <h3 class="text-xl text-red-600 mb-6 border-b-2 border-red-600 pb-2">Usefull Links</h3>
             <ul class="space-y-3">
                 <li><a href="#"
@@ -49,7 +49,7 @@
         </div>
 
         <!-- Contact Us -->
-        <div>
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
             <h3 class="text-xl text-red-600 mb-6 border-b-2 border-red-600 pb-2">Contact Us</h3>
             <ul class="space-y-4 mb-6">
                 <li class="flex items-start gap-4">
@@ -81,7 +81,7 @@
     <div
         class="mt-16 pt-4 border-t border-gray-700 text-center opacity-70 text-sm flex md:flex-row flex-col items-center justify-between  max-w-7xl mx-auto">
         <!-- Social Links -->
-        <div class="flex space-x-3 max-md:mb-6">
+        <div class="flex space-x-3 max-md:mb-6" >
             <a href="#"
                 class="w-10 h-10 bg-white bg-opacity-10 flex items-center justify-center rounded-full text-[#ff0000] border-2 border-[#ff0000] hover:border-none hover:text-white transition-transform hover:-translate-y-1 hover:bg-pink-600">
                 <i class="fab fa-facebook-f"></i>

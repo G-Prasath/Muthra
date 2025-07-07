@@ -88,7 +88,7 @@
             <!-- ----------- Lang Selector ----------- -->
             <div class="relative inline-block text-left notranslate">
                 <select id="customLangSelect"
-                    class="text-sm px-2 py-1 border-2 rounded-md border-green-600 focus:outline-none focus:ring-0 snap-none">
+                    class="text-sm max-w-max px-3 py-1 border-2 rounded-md border-green-600 focus:outline-none focus:ring-0 snap-none">
                     <option value="af" class="lang-btn">AF</option>
                     <option value="sq" class="lang-btn">SQ</option>
                     <option value="am" class="lang-btn">AM</option>
