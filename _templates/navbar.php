@@ -25,7 +25,7 @@
                         About us
                     </a>
 
-                    <a href="intro.php"
+                    <a href="introduction.php"
                         class="text-gray-700 hover:text-green-600 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
                         Intro
                     </a>
@@ -229,7 +229,7 @@
                 About Us
             </a>
 
-            <a href="intro.php"
+            <a href="introduction.php"
                 class="text-gray-700 hover:text-green-600 hover:bg-blue-50 block px-3 py-2 rounded-md text-base font-medium transition-all duration-200">
                 Intro
             </a>
