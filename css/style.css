@@ -1,8 +1,9 @@
-body {
+html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  overflow-x: hidden;
 }
 
 .dropdown-menu {
@@ -59,26 +60,22 @@ body {
   background: rgba(255, 255, 255, 0.95);
 }
 
-.hero-overlay {
-  background: linear-gradient(
-    135deg,
-    rgba(0, 0, 0, 0.3) 0%,
-    rgba(0, 0, 0, 0.2) 100%
-  );
-}
+
+
 
 /* ================== Hero Banner ==================  */
-
 .banner-slider {
   position: relative;
   overflow: hidden;
+  width: 100%;
+  margin: 0px auto;
 }
 
 .slide {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 1270px;
   height: 100%;
   opacity: 0;
   transition: all 1s ease-in-out;
@@ -191,8 +188,13 @@ body {
     bottom: 20px;
   }
 }
-
 /* ================== Hero Banner End ==================  */
+
+
+
+
+
+
 
 /* ==================== Language Switcher ==================   */
 body > .skiptranslate {

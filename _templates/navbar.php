@@ -1,6 +1,6 @@
 <!-- Navigation -->
-<nav class="bg-white shadow-lg sticky top-0 z-50 h-auto py-2 relative">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<nav class="w-full bg-white shadow-lg sticky top-0 z-50 h-auto py-2 relative">
+    <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between">
             <!-- Logo -->
             <div class="flex items-center">

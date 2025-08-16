@@ -15,52 +15,23 @@
 
 
     <!-- ======================== Banner Start ========================= -->
-    <section data-aos="fade-up" class="banner-slider relative md:h-screen w-full aspect-video" id="heroSlider">
-        <!-- Slide 1 - Fade Effect -->
-        <div class="slide fade-effect active"
-            style="background-image: url('https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop');">
-            <div class="hero-overlay absolute inset-0"></div>
+    <div class="md:w-[90%] md:h-[80vh] mx-auto md:my-4 my-2 relative overflow-hidden w-full ">
+        <!-- Carousel Wrapper -->
+        <div id="carousel" class="flex transition-transform duration-700 ease-in-out">
+            <!-- Slide 1 -->
+            <img src="./img/chk.jpeg" class="w-full h-full flex-shrink-0 object-cover" alt="slide 1">
+            <!-- Slide 2 -->
+            <img src="./img/chk.jpeg" class="w-full h-full flex-shrink-0 object-cover" alt="slide 2">
+            <!-- Slide 3 -->
+            <img src="./img/chk.jpeg" class="w-full h-full flex-shrink-0 object-cover" alt="slide 3">
         </div>
 
-        <!-- Slide 2 - Slide Effect -->
-        <div class="slide slide-effect"
-            style="background-image: url('https://images.pexels.com/photos/6995220/pexels-photo-6995220.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop');">
-            <div class="hero-overlay absolute inset-0"></div>
-        </div>
-
-        <!-- Slide 3 - Zoom Effect -->
-        <div class="slide zoom-effect"
-            style="background-image: url('https://images.pexels.com/photos/6646917/pexels-photo-6646917.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop');">
-            <div class="hero-overlay absolute inset-0"></div>
-        </div>
-
-        <!-- Slide 4 - Rotate Effect -->
-        <div class="slide rotate-effect"
-            style="background-image: url('https://images.pexels.com/photos/6646919/pexels-photo-6646919.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop');">
-            <div class="hero-overlay absolute inset-0"></div>
-        </div>
-
-        <!-- Navigation Arrows -->
-        <button class="slider-nav prev" id="prevSlide">
-            <i class="fas fa-chevron-left"></i>
-        </button>
-        <button class="slider-nav next" id="nextSlide">
-            <i class="fas fa-chevron-right"></i>
-        </button>
-
-        <!-- Navigation Dots -->
-        <div class="slider-dots" id="sliderDots">
-            <span class="dot active" data-slide="0"></span>
-            <span class="dot" data-slide="1"></span>
-            <span class="dot" data-slide="2"></span>
-            <span class="dot" data-slide="3"></span>
-        </div>
-
-        <!-- Progress Bar -->
-        <div class="progress-bar">
-            <div class="progress-fill" id="progressFill"></div>
-        </div>
-    </section>
+        <!-- Navigation buttons -->
+        <button id="prevBtn"
+            class="absolute top-1/2 left-4 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full">❮</button>
+        <button id="nextBtn"
+            class="absolute top-1/2 right-4 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full">❯</button>
+    </div>
     <!-- ========================== Banner End ======================== -->
 
     <!-- ========================= About Section Start =========================  -->
@@ -105,8 +76,8 @@
 
     <!-- =========================== Video Section Start =========================  -->
     <section data-aos="zoom-in" data-aos-duration="1000"
-        class="bg-[#f2bd3b] flex justify-center items-center md:py-16 md:px-8 py-4 px-2">
-        <div class="flex gap-4 p-4 bg-gray-200 rounded" data-aos="zoom-in" data-aos-delay="500"
+        class="bg-[#f0fdf4] flex justify-center items-center md:py-16 md:px-8 py-4 px-2">
+        <div class="flex gap-4 p-4 bg-[#c3ffd9] rounded" data-aos="zoom-in" data-aos-delay="500"
             data-aos-duration="1000">
             <video
                 src="https://raw.githubusercontent.com/jonathan-eduardo/JavaScript30/main/challenges/28%20-%20Video%20Speed%20Controller/video.mp4"

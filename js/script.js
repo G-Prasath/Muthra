@@ -138,140 +138,25 @@ document.addEventListener("DOMContentLoaded", function () {
   // ======================== Navbar End ===========================
 
   // ======================= Banner Start ===========================
+   const carousel = document.getElementById("carousel");
+  const slides = carousel.children;
+  const totalSlides = slides.length;
 
-  // Banner Slider Functionality
-  const slides = document.querySelectorAll(".slide");
-  const dots = document.querySelectorAll(".dot");
-  const prevBtn = document.getElementById("prevSlide");
-  const nextBtn = document.getElementById("nextSlide");
-  const progressFill = document.getElementById("progressFill");
+  let index = 0;
 
-  let currentSlide = 0;
-  let slideInterval;
-  let progressInterval;
-  const slideDelay = 5000; // 5 seconds per slide
-  const progressUpdateInterval = 50; // Update progress every 50ms
-
-  // Slide transition effects array
-  const effects = [
-    "fade-effect",
-    "slide-effect",
-    "zoom-effect",
-    "rotate-effect",
-  ];
-
-  function showSlide(index) {
-    // Remove active class from all slides and dots
-    slides.forEach((slide) => slide.classList.remove("active"));
-    dots.forEach((dot) => dot.classList.remove("active"));
-
-    // Add active class to current slide and dot
-    slides[index].classList.add("active");
-    dots[index].classList.add("active");
-
-    // Reset progress bar
-    progressFill.style.width = "0%";
-
-    // Start progress animation
-    startProgressAnimation();
+  function showSlide(i) {
+    index = (i + totalSlides) % totalSlides; // loop around
+    carousel.style.transform = `translateX(-${index * 100}%)`;
   }
 
-  function nextSlide() {
-    currentSlide = (currentSlide + 1) % slides.length;
-    showSlide(currentSlide);
-  }
+  document.getElementById("prevBtn").addEventListener("click", () => showSlide(index - 1));
+  document.getElementById("nextBtn").addEventListener("click", () => showSlide(index + 1));
 
-  function prevSlide() {
-    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-    showSlide(currentSlide);
-  }
-
-  function startProgressAnimation() {
-    let progress = 0;
-    clearInterval(progressInterval);
-
-    progressInterval = setInterval(() => {
-      progress += (progressUpdateInterval / slideDelay) * 100;
-      progressFill.style.width = progress + "%";
-
-      if (progress >= 100) {
-        clearInterval(progressInterval);
-      }
-    }, progressUpdateInterval);
-  }
-
-  function startSlideShow() {
-    clearInterval(slideInterval);
-    slideInterval = setInterval(nextSlide, slideDelay);
-  }
-
-  function stopSlideShow() {
-    clearInterval(slideInterval);
-    clearInterval(progressInterval);
-  }
-
-  // Event listeners
-  nextBtn.addEventListener("click", () => {
-    stopSlideShow();
-    nextSlide();
-    startSlideShow();
-  });
-
-  prevBtn.addEventListener("click", () => {
-    stopSlideShow();
-    prevSlide();
-    startSlideShow();
-  });
-
-  // Pause on hover
-  const slider = document.getElementById("heroSlider");
-  slider.addEventListener("mouseenter", stopSlideShow);
-  slider.addEventListener("mouseleave", startSlideShow);
-
-  // Touch/swipe support for mobile
-  let touchStartX = 0;
-  let touchEndX = 0;
-
-  slider.addEventListener("touchstart", (e) => {
-    touchStartX = e.changedTouches[0].screenX;
-  });
-
-  slider.addEventListener("touchend", (e) => {
-    touchEndX = e.changedTouches[0].screenX;
-    handleSwipe();
-  });
-
-  function handleSwipe() {
-    const swipeThreshold = 50;
-    const diff = touchStartX - touchEndX;
-
-    if (Math.abs(diff) > swipeThreshold) {
-      stopSlideShow();
-      if (diff > 0) {
-        nextSlide(); // Swipe left - next slide
-      } else {
-        prevSlide(); // Swipe right - previous slide
-      }
-      startSlideShow();
-    }
-  }
-
-  // Keyboard navigation
-  document.addEventListener("keydown", (e) => {
-    if (e.key === "ArrowLeft") {
-      stopSlideShow();
-      prevSlide();
-      startSlideShow();
-    } else if (e.key === "ArrowRight") {
-      stopSlideShow();
-      nextSlide();
-      startSlideShow();
-    }
-  });
-
-  // Initialize slider
-  showSlide(0);
-  startSlideShow();
+  // Auto-slide every 5s
+  setInterval(() => {
+    showSlide(index + 1);
+  }, 5000);
+  
   // ======================== Banner End ============================
 
 
