@@ -15,15 +15,13 @@
 
 
     <!-- ======================== Banner Start ========================= -->
-    <div class="md:w-[90%] md:h-[80vh] mx-auto md:my-4 my-2 relative overflow-hidden w-full ">
+    <div class="md:w-[80%] md:h-[70%] mx-auto md:my-4 my-2 relative overflow-hidden w-full">
         <!-- Carousel Wrapper -->
         <div id="carousel" class="flex transition-transform duration-700 ease-in-out">
             <!-- Slide 1 -->
-            <img src="./img/chk.jpeg" class="w-full h-full flex-shrink-0 object-cover" alt="slide 1">
-            <!-- Slide 2 -->
-            <img src="./img/chk.jpeg" class="w-full h-full flex-shrink-0 object-cover" alt="slide 2">
-            <!-- Slide 3 -->
-            <img src="./img/chk.jpeg" class="w-full h-full flex-shrink-0 object-cover" alt="slide 3">
+            <img src="./img/banner-1.jpeg" class="w-full h-full flex-shrink-0 object-cover object-center" alt="slide 1">
+            <img src="./img/banner-2.jpeg" class="w-full h-full flex-shrink-0 object-cover object-center" alt="slide 2">
+            <img src="./img/banner-3.jpeg" class="w-full h-full flex-shrink-0 object-cover object-center" alt="slide 3"> 
         </div>
 
         <!-- Navigation buttons -->

@@ -7,7 +7,7 @@
                 <div class="flex-shrink-0 flex items-center">
                     <a href="">
                         <!-- <i class="fas fa-heart text-white text-2xl"></i> -->
-                        <img class="w-[80px]" src="./img/logo.avif" alt="logo">
+                        <img class="w-[80px]" src="./img/logo.jpeg" alt="logo">
                     </a>
                 </div>
             </div>
