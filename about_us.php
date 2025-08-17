@@ -15,15 +15,14 @@
 
 
     <!-- =============== About us Banner ================= -->
-    <div class="relative w-full md:h-screen aspect-video overflow-hidden" data-aos="fade-down" data-aos-duration="1000">
-        <img src="https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
-            class="w-full h-full" alt="about Banner">
+    <div class="relative w-full mx-auto overflow-hidden" data-aos="fade-down" data-aos-duration="1000">
+        <img src="./img/intro-banner.avif" class="w-full" alt="about Banner">
         <div class="w-full h-full bg-black/30 z-20 absolute top-0 flex items-center justify-center">
             <nav class="flex" aria-label="Breadcrumb">
                 <ol class="inline-flex items-center space-x-1 md:space-x-3">
                     <li class="inline-flex items-center">
                         <a href="index.php"
-                            class="text-white ml-1 inline-flex text-md font-bold text-gray-800 hover:underline md:ml-2">
+                            class="text-white ml-1 inline-flex md:text-md text-sm font-bold text-gray-800 hover:underline md:ml-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="mr-3 h-5 w-5">
@@ -36,7 +35,8 @@
                     <li aria-current="page">
                         <div class="flex items-center">
                             <span class="mx-2.5 text-white text-[18px]">/</span>
-                            <span class="ml-1 text-md font-bold text-gray-800 hover:underline md:ml-2 text-white">
+                            <span
+                                class="ml-1 md:text-md text-sm font-bold text-gray-800 hover:underline md:ml-2 text-white">
                                 About Us
                             </span>
                         </div>
@@ -49,8 +49,8 @@
 
 
     <!-- ==================== Profile Section ==================  -->
-    <section class="bg-gray-100">
-        <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+    <section class="bg-gray-100 ">
+        <div class="max-md:container md:w-[80%] w-full mx-auto py-16 px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">About Us</h2>
@@ -156,17 +156,17 @@
 
 
     <!-- ===================================== Why Choose Us =====================================  -->
-    <div class="max-w-4xl mx-auto px-5 my-16">
+    <div class="md:w-[80%] w-full mx-auto px-5 my-16">
 
         <div class="text-center">
             <h2 class="font-semibold text-3xl" data-aos="fade-down" data-aos-duration="1000">Why Choose Us</h2>
         </div>
 
 
-        <div class="grid md:grid-cols-2 gap-10 mt-10">
+        <div class="grid md:grid-cols-2 gap-10 mt-10 ">
 
 
-            <div class="flex gap-4 items-start" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="flex gap-4 min-md:items-start" data-aos="zoom-in" data-aos-duration="1000">
                 <span class="text-violet-600 bg-violet-500/10 p-3 rounded-full">
                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"
                         class="w-5 h-5">
@@ -183,7 +183,7 @@
             </div>
 
 
-            <div class="flex gap-4 items-start"  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+            <div class="flex gap-4 min-md:items-start"  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                 <span class="text-violet-600 bg-violet-500/10 p-3 rounded-full">
                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"
                         class="w-5 h-5">
@@ -200,7 +200,7 @@
             </div>
 
 
-            <div class="flex gap-4 items-start"  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+            <div class="flex gap-4 min-md:items-start"  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
                 <span class="text-violet-600 bg-violet-500/10 p-3 rounded-full">
                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"
                         class="w-5 h-5">
@@ -216,7 +216,7 @@
             </div>
 
 
-            <div class="flex gap-4 items-start"  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+            <div class="flex gap-4 min-md:items-start"  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
                 <span class="text-violet-600 bg-violet-500/10 p-3 rounded-full">
                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"
                         class="w-5 h-5">

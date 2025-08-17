@@ -139,7 +139,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // ======================= Banner Start ===========================
    const carousel = document.getElementById("carousel");
-  const slides = carousel.children;
+  // const slides = carousel.children;
   const totalSlides = slides.length;
 
   let index = 0;
@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Auto-slide every 5s
   setInterval(() => {
     showSlide(index + 1);
-  }, 5000);
+  }, 3000);
   
   // ======================== Banner End ============================
 

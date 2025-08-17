@@ -19,9 +19,10 @@
         <!-- Carousel Wrapper -->
         <div id="carousel" class="flex transition-transform duration-700 ease-in-out">
             <!-- Slide 1 -->
-            <img src="./img/banner-1.jpeg" class="w-full h-full flex-shrink-0 object-cover object-center" alt="slide 1">
-            <img src="./img/banner-2.jpeg" class="w-full h-full flex-shrink-0 object-cover object-center" alt="slide 2">
-            <img src="./img/banner-3.jpeg" class="w-full h-full flex-shrink-0 object-cover object-center" alt="slide 3"> 
+            <img src="./img/banner-1.avif" class="w-full h-full flex-shrink-0 object-cover object-center" alt="slide 1">
+            <img src="./img/banner-2.avif" class="w-full h-full flex-shrink-0 object-cover object-center" alt="slide 2">
+            <img src="./img/banner-3.avif" class="w-full h-full flex-shrink-0 object-cover object-center" alt="slide 3">
+            <img src="./img/banner-4.avif" class="w-full h-full flex-shrink-0 object-cover object-center" alt="slide 4">
         </div>
 
         <!-- Navigation buttons -->
@@ -35,11 +36,11 @@
     <!-- ========================= About Section Start =========================  -->
     <section class="relative bg-gray-900 text-white md:py-16 md:px-8 py-8 px-4 overflow-hidden">
         <!-- Container Content -->
-        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-center md:space-x-12">
+        <div class="md:w-[80%] w-full mx-auto flex flex-col md:flex-row items-center md:items-center md:space-x-12">
             <!-- Text Content -->
             <div class="w-full md:w-1/2">
                 <h1 class="md:text-4xl text-xl font-bold mb-4 border-b-4 border-blue-500 inline-block"
-                    data-aos="fade-up" data-aos-duration="2500">About Us</h1>
+                    data-aos="fade-up" data-aos-duration="2500">Foundation</h1>
 
                 <p class="mb-4 text-gray-300 leading-relaxed text-justify" data-aos="fade-up" data-aos-duration="2000">
                     We are committed to delivering innovative solutions with a focus on quality and customer
@@ -55,7 +56,7 @@
                 </p>
 
                 <div class="flex items-center justify-end w-full" data-aos="fade-up" data-aos-duration="1000">
-                    <a href="#contact"
+                    <a href="contact.php"
                         class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg mt-8 transition duration-300">
                         Book
                     </a>
@@ -64,27 +65,24 @@
 
             <!-- Image -->
             <div class="w-full md:w-1/2 mt-8 md:mb-0" data-aos="zoom-in" data-aos-duration="1500">
-                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.4&auto=format&fit=crop&w=800&q=80"
-                    alt="Our Team" class="rounded-lg shadow-lg object-cover w-full h-full" />
+                <iframe class="rounded w-[325px] h-[300px] md:w-[600px] md:h-[350px] min-[2560px]:hidden"
+                    src="https://www.youtube.com/embed/3JhcdflXapg?si=KWbMMTRKM6YZiA1p" title="YouTube video player"
+                    frameborder="0" loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+
+                <iframe class="rounded w-[1800px] h-[1000px] hidden min-[2560px]:block border border-red-500"
+                    src="https://www.youtube.com/embed/3JhcdflXapg?si=KWbMMTRKM6YZiA1p" title="YouTube video player"
+                    frameborder="0" loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
             </div>
         </div>
     </section>
     <!-- ============================ About Section End ======================= -->
 
-
-    <!-- =========================== Video Section Start =========================  -->
-    <section data-aos="zoom-in" data-aos-duration="1000"
-        class="bg-[#f0fdf4] flex justify-center items-center md:py-16 md:px-8 py-4 px-2">
-        <div class="flex gap-4 p-4 bg-[#c3ffd9] rounded" data-aos="zoom-in" data-aos-delay="500"
-            data-aos-duration="1000">
-            <video
-                src="https://raw.githubusercontent.com/jonathan-eduardo/JavaScript30/main/challenges/28%20-%20Video%20Speed%20Controller/video.mp4"
-                class="rounded" controls
-                poster="https://raw.githubusercontent.com/jonathan-eduardo/JavaScript30/main/challenges/28%20-%20Video%20Speed%20Controller/video-screenshot.png"></video>
-        </div>
-    </section>
-
-    <!-- =========================== Video Section End =========================  -->
 
 
     <?php include_once './_templates/cta.php'; ?>

@@ -5,7 +5,7 @@
             <!-- Logo -->
             <div class="flex items-center">
                 <div class="flex-shrink-0 flex items-center">
-                    <a href="">
+                    <a href="index.php">
                         <!-- <i class="fas fa-heart text-white text-2xl"></i> -->
                         <img class="w-[80px]" src="./img/logo.jpeg" alt="logo">
                     </a>

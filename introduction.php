@@ -11,19 +11,37 @@
 
 <body>
 
+    <?php
+    $books = [];
+    for ($i = 1; $i <= 34; $i++) {
+        $books[] = "./img/books/Book{$i}.avif";
+    }
+
+    $certificate = [
+        "https://pagedone.io/asset/uploads/1688025668.png",
+        "https://pagedone.io/asset/uploads/1688029344.png",
+        "https://pagedone.io/asset/uploads/1688029370.png",
+        "https://pagedone.io/asset/uploads/1688029384.png",
+        "https://pagedone.io/asset/uploads/1688029394.png",
+        "https://pagedone.io/asset/uploads/1688029408.png",
+    ];
+
+    ?>
+
+
+
     <?php include_once './_templates/navbar.php'; ?>
 
 
     <!-- =============== Intoducction Banner ================= -->
-    <div class="relative w-full md:h-screen aspect-video overflow-hidden" data-aos="fade-down" data-aos-duration="1000">
-        <img src="https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
-            class="w-full h-full" alt="about Banner">
+    <div class="relative w-full mx-auto overflow-hidden" data-aos="fade-down" data-aos-duration="1000">
+        <img src="./img/intro-banner.avif" class="w-full" alt="about Banner">
         <div class="w-full h-full bg-black/30 z-20 absolute top-0 flex items-center justify-center">
             <nav class="flex" aria-label="Breadcrumb">
                 <ol class="inline-flex items-center space-x-1 md:space-x-3">
                     <li class="inline-flex items-center">
                         <a href="index.php"
-                            class="text-white ml-1 inline-flex text-md font-bold text-gray-800 hover:underline md:ml-2">
+                            class="text-white ml-1 inline-flex md:text-md text-sm font-bold text-gray-800 hover:underline md:ml-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="mr-3 h-5 w-5">
@@ -36,7 +54,8 @@
                     <li aria-current="page">
                         <div class="flex items-center">
                             <span class="mx-2.5 text-white text-[18px]">/</span>
-                            <span class="ml-1 text-md font-bold text-gray-800 hover:underline md:ml-2 text-white">
+                            <span
+                                class="ml-1 md:text-md text-sm font-bold text-gray-800 hover:underline md:ml-2 text-white">
                                 Introduction
                             </span>
                         </div>
@@ -49,38 +68,49 @@
 
 
     <!-- ====================== Introduction Section ======================  -->
-    <section class="pt-10 overflow-hidden bg-gray-50 dark:bg-gray-800 md:pt-0 sm:pt-16">
-        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-            <div class="grid items-center grid-cols-1 md:grid-cols-2">
+    <section class="pt-10 overflow-hidden bg-gray-50 dark:bg-gray-800 my-1 sm:py-16">
+        <div class="px-4 mx-auto sm:px-6 lg:px-8 md:w-[80%] w-full">
+            <div class="grid items-center grid-cols-1 md:grid-cols-2 gap-8">
 
+                <!-- Left text -->
                 <div>
-                    <h2 class="text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl" data-aos="fade-down" data-aos-duration="1000">Hey
-                        👋 I
-                        am
-                        <br class="block sm:hidden" />John loan
+                    <h2 class="text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl"
+                        data-aos="fade-down" data-aos-duration="1000">
+                        Hey 👋 I am <br class="block sm:hidden" />John loan
                     </h2>
-                    <p class="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 dark:text-gray-300 md:mt-8" data-aos="fade-up" data-aos-duration="1000">
+
+                    <p class="md:w-full mt-3 text-lg md:text-xl leading-relaxed text-gray-600 dark:text-gray-300 md:mt-8"
+                        data-aos="fade-up" data-aos-duration="1000">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur cum voluptates unde neque
                         ut facilis, vitae et dicta tenetur laboriosam.
                     </p>
 
-                    <p class="mt-4 text-xl text-gray-600 dark:text-gray-300 md:mt-8" data-aos="fade-up" data-aos-duration="1000">
+                    <p class="mt-4 text-xl text-gray-600 dark:text-gray-300 md:mt-8" data-aos="fade-up"
+                        data-aos-duration="1000">
                         <span class="relative inline-block">
                             <span
                                 class="absolute inline-block w-full bottom-0.5 h-2 bg-yellow-300 dark:bg-gray-900"></span>
                             <span class="relative"> Have a question? </span>
                         </span>
-                        <br class="block sm:hidden" />Ask me on <a href="contact_us.php" title=""
-                            class="transition-all duration-200 text-sky-500 dark:text-sky-400 hover:text-sky-600 dark:hover:text-sky-500 hover:underline">Conatct
-                            Us</a>
+                        <br class="block sm:hidden" />
+                        Ask me on
+                        <a href="contact_us.php"
+                            class="transition-all duration-200 text-sky-500 dark:text-sky-400 hover:text-sky-600 dark:hover:text-sky-500 hover:underline">
+                            Contact Us
+                        </a>
                     </p>
                 </div>
 
+                <!-- Right: Responsive YouTube Video -->
                 <div class="relative" data-aos="zoom-in" data-aos-duration="2000">
-                    <img class="absolute inset-x-0 bottom-0 -mb-48 -translate-x-1/2 left-1/2"
-                        src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/blob-shape.svg" alt="" />
-
-                    <img class="relative w-full xl:mx-auto " src="./img/person.png" alt="" />
+                    <div class="aspect-video w-full rounded-lg overflow-hidden shadow-lg">
+                        <iframe class="w-full h-full"
+                            src="https://www.youtube.com/embed/3JhcdflXapg?si=KWbMMTRKM6YZiA1p"
+                            title="YouTube video player" frameborder="0" loading="lazy"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
                 </div>
 
             </div>
@@ -88,8 +118,9 @@
     </section>
 
 
+
     <!-- ============================= Services Section =========================== -->
-    <div class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
+    <div class="md:w-[80%] w-full mx-auto p-5 sm:p-10 md:p-16">
 
         <div class="border-b mb-5 flex justify-between text-sm" data-aos="fade-down" data-aos-duration="1000">
             <div class="text-indigo-600 flex items-center pb-2 pr-2 border-b-2 border-indigo-600 uppercase">
@@ -131,18 +162,18 @@
             <div class="rounded overflow-hidden shadow-lg flex flex-col">
                 <div class="relative">
                     <img class="w-full"
-                        src="https://images.pexels.com/photos/61180/pexels-photo-61180.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500"
-                        alt="Sunset in the mountains"
-                        data-aos="zoom-in" data-aos-duration="2000">
+                        src="./img/mudra.avif"
+                        alt="Sunset in the mountains" data-aos="zoom-in" data-aos-duration="2000">
                     <div
                         class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
                     </div>
                 </div>
                 <div class="px-6 py-4 mb-auto">
                     <a href="javascript:;"
-                        class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2" data-aos="fade-up" data-aos-duration="1000">Lorem
-                        Ipsum</a>
-                    <p class="text-gray-500 text-sm text-justify" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                        class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2"
+                        data-aos="fade-up" data-aos-duration="1000">Muthra</a>
+                    <p class="text-gray-500 text-sm text-justify" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-delay="300">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply
                         dummy text of the printing and typesetting industry.
                     </p>
@@ -157,18 +188,18 @@
             <div class="rounded overflow-hidden shadow-lg flex flex-col">
                 <div class="relative">
                     <img class="w-full"
-                        src="https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500"
-                        alt="Sunset in the mountains"
-                        data-aos="zoom-in" data-aos-duration="2000">
+                        src="./img/accuprasure.avif"
+                        alt="Sunset in the mountains" data-aos="zoom-in" data-aos-duration="2000">
                     <div
                         class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
                     </div>
                 </div>
                 <div class="px-6 py-4 mb-auto">
                     <a href="#"
-                        class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2" data-aos="fade-up" data-aos-duration="1000">Lorem
-                        ipsum</a>
-                    <p class="text-gray-500 text-sm text-justify" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                        class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2"
+                        data-aos="fade-up" data-aos-duration="1000">Accuprasure</a>
+                    <p class="text-gray-500 text-sm text-justify" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-delay="300">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply
                         dummy text of the printing and typesetting industry.
                     </p>
@@ -184,18 +215,18 @@
             <div class="rounded overflow-hidden shadow-lg flex flex-col">
                 <div class="relative">
                     <img class="w-full"
-                        src="https://images.pexels.com/photos/6086/food-salad-healthy-vegetables.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500"
-                        alt="Sunset in the mountains"
-                        data-aos="zoom-in" data-aos-duration="2000">
+                        src="./img/food.avif"
+                        alt="Sunset in the mountains" data-aos="zoom-in" data-aos-duration="2000">
                     <div
                         class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
                     </div>
                 </div>
                 <div class="px-6 py-4 mb-auto">
                     <a href="#"
-                        class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2" data-aos="fade-up" data-aos-duration="1000">Lorem
-                        ipsum</a>
-                    <p class="text-gray-500 text-sm text-jsustify" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                        class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2"
+                        data-aos="fade-up" data-aos-duration="1000">Food</a>
+                    <p class="text-gray-500 text-sm text-jsustify" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-delay="300">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     </p>
                 </div>
@@ -209,122 +240,37 @@
 
 
     <!-- ============================ Books Gallery =========================== -->
-    <div>
+    <div class="md:w-[80%] w-full mx-auto">
         <div class="text-center py-4 mb-4" data-aos="fade-down" data-aos-duration="1000">
             <h2 class="font-semibold text-3xl" data-aos="fade-down" data-aos-duration="1000">Our Books</h2>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:px-16 px-3 pb-16">
-
-            <div class="group cursor-pointer relative" data-aos="zoom-in" data-aos-duration="1300">
-                <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw1fHxuYXR1cmV8ZW58MHwwfHx8MTY5NDA5OTcyOXww&ixlib=rb-4.0.3&q=80&w=1080"
-                    alt="Image 1"
-                    class="w-full object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105" />
-                <div
-                    class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-
+            <?php foreach ($books as $img): ?>
+                <div class="group cursor-pointer relative" data-aos="zoom-in" data-aos-duration="1300">
+                    <img src="<?= $img ?>" alt="Gallery Image"
+                        class="w-full object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105" />
+                    <div
+                        class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                        <!-- Optional overlay content -->
+                    </div>
                 </div>
-            </div>
-
-            <div class="group cursor-pointer relative" data-aos="zoom-in" data-aos-duration="1300">
-                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw5fHxuYXR1cmV8ZW58MHwwfHx8MTY5NDA5OTcyOXww&ixlib=rb-4.0.3&q=80&w=1080"
-                    alt="Image 1"
-                    class="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105" />
-                <div
-                    class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-
-                </div>
-            </div>
-
-            <div class="group cursor-pointer relative" data-aos="zoom-in" data-aos-duration="1300">
-                <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxMHx8bmF0dXJlfGVufDB8MHx8fDE2OTQwOTk3Mjl8MA&ixlib=rb-4.0.3&q=80&w=1080"
-                    alt="Image 1"
-                    class="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105" />
-                <div
-                    class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-
-                </div>
-            </div>
-
-            <div class="group cursor-pointer relative" data-aos="zoom-in" data-aos-duration="1300">
-                <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwyfHxuYXR1cmV8ZW58MHwwfHx8MTY5NDA5OTcyOXww&ixlib=rb-4.0.3&q=80&w=1080"
-                    alt="Image 1"
-                    class="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105" />
-                <div
-                    class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-
-                </div>
-            </div>
-
-            <div class="group cursor-pointer relative" data-aos="zoom-in" data-aos-duration="1300">
-                <img src="https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxNHx8bmF0dXJlfGVufDB8MHx8fDE2OTQwOTk3Mjl8MA&ixlib=rb-4.0.3&q=80&w=1080"
-                    alt="Image 1"
-                    class="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105" />
-                <div
-                    class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-
-                </div>
-            </div>
-
-            <div class="group cursor-pointer relative" data-aos="zoom-in" data-aos-duration="1300">
-                <img src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxMXx8bmF0dXJlfGVufDB8MHx8fDE2OTQwOTk3Mjl8MA&ixlib=rb-4.0.3&q=80&w=1080"
-                    alt="Image 1"
-                    class="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105" />
-                <div
-                    class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-
-                </div>
-            </div>
-
-            <div class="group cursor-pointer relative" data-aos="zoom-in" data-aos-duration="1300">
-                <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw0fHxuYXR1cmV8ZW58MHwwfHx8MTY5NDA5OTcyOXww&ixlib=rb-4.0.3&q=80&w=1080"
-                    alt="Image 1"
-                    class="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105" />
-                <div
-                    class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-
-                </div>
-            </div>
+            <?php endforeach; ?>
         </div>
     </div>
 
 
     <!-- ============================ Certificate Section =========================== -->
-    <div>
-         <div class="text-center py-4 mb-4">
+    <div >
+        <div class="text-center py-4 mb-4">
             <h2 class="font-semibold text-3xl" data-aos="fade-down" data-aos-duration="1000">Our Certifications</h2>
         </div>
         <div class="flex flex-wrap justify-center gap-4 p-4 mb-16">
-
-            <div class="flex justify-center items-center border h-32 w-48 bg-blue-100" data-aos="zoom-in" data-aos-duration="1300">
-                <img class="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688025668.png"
-                    alt="Gallery image" />
-            </div>
-
-            <div class="flex justify-center items-center border h-32 w-48 bg-blue-100" data-aos="zoom-in" data-aos-duration="1300">
-                <img class="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688029344.png"
-                    alt="Gallery image" />
-            </div>
-
-            <div class="flex justify-center items-center border h-32 w-48 bg-blue-100" data-aos="zoom-in" data-aos-duration="1300">
-                <img class="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688029370.png"
-                    alt="Gallery image" />
-            </div>
-
-            <div class="flex justify-center items-center border h-32 w-48 bg-blue-100" data-aos="zoom-in" data-aos-duration="1300">
-                <img class="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688029384.png"
-                    alt="Gallery image" />
-            </div>
-
-            <div class="flex justify-center items-center border h-32 w-48 bg-blue-100" data-aos="zoom-in" data-aos-duration="1300">
-                <img class="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688029394.png"
-                    alt="Gallery image" />
-            </div>
-
-            <div class="flex justify-center items-center border h-32 w-48 bg-blue-100" data-aos="zoom-in" data-aos-duration="1300">
-                <img class="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688029408.png"
-                    alt="Gallery image" />
-            </div>
-
+            <?php foreach ($certificate as $img): ?>
+                <div class="flex justify-center items-center border h-32 w-48 bg-blue-100" data-aos="zoom-in"
+                    data-aos-duration="1300">
+                    <img class="h-auto max-w-full rounded-lg" src="<?= $img ?>" alt="Gallery image" />
+                </div>
+            <?php endforeach; ?>
         </div>
     </div>
 

@@ -14,15 +14,14 @@
     <?php include_once './_templates/navbar.php'; ?>
 
     <!-- =============== About us Banner ================= -->
-    <div class="relative w-full md:h-screen aspect-video overflow-hidden" data-aos="fade-down" data-aos-duration="1000">
-        <img src="https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
-            class="w-full h-full" alt="about Banner">
+    <div class="relative w-full mx-auto overflow-hidden" data-aos="fade-down" data-aos-duration="1000">
+        <img src="./img/intro-banner.avif" class="w-full" alt="about Banner">
         <div class="w-full h-full bg-black/30 z-20 absolute top-0 flex items-center justify-center">
             <nav class="flex" aria-label="Breadcrumb">
                 <ol class="inline-flex items-center space-x-1 md:space-x-3">
                     <li class="inline-flex items-center">
                         <a href="index.php"
-                            class="text-white ml-1 inline-flex text-md font-bold text-gray-800 hover:underline md:ml-2">
+                            class="text-white ml-1 inline-flex md:text-md text-sm font-bold text-gray-800 hover:underline md:ml-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="mr-3 h-5 w-5">
@@ -35,7 +34,8 @@
                     <li aria-current="page">
                         <div class="flex items-center">
                             <span class="mx-2.5 text-white text-[18px]">/</span>
-                            <span class="ml-1 text-md font-bold text-gray-800 hover:underline md:ml-2 text-white">
+                            <span
+                                class="ml-1 md:text-md text-sm font-bold text-gray-800 hover:underline md:ml-2 text-white">
                                 Donate
                             </span>
                         </div>
@@ -49,11 +49,11 @@
 
 
     <!-- ======================= Donate Section ==================   -->
-    <div class="md:px-[15%] px-4 py-16">
+    <div class="md:px-[15%] px-4 py-16 ">
         <div>
             <h2 class="text-xl font-bold tracki text-center mt-4 sm:text-3xl" data-aos="fade-up" data-aos-duration="1000">Offline Contribute</h2>
         </div>
-        <div class="mt-12 container space-y-12 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8">
+        <div class="mt-12 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8">
             <div
                 class="relative p-8  border border-gray-200 rounded-2xl shadow-md hover:shadow-xl flex flex-col border-2 border-emerald-500" data-aos="zoom-in" data-aos-duration="2500">
                 <div class="flex-1">
