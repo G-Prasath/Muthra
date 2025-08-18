@@ -18,12 +18,9 @@
     }
 
     $certificate = [
-        "https://pagedone.io/asset/uploads/1688025668.png",
-        "https://pagedone.io/asset/uploads/1688029344.png",
-        "https://pagedone.io/asset/uploads/1688029370.png",
-        "https://pagedone.io/asset/uploads/1688029384.png",
-        "https://pagedone.io/asset/uploads/1688029394.png",
-        "https://pagedone.io/asset/uploads/1688029408.png",
+        "./img/certificate-1.avif",
+        "./img/certificate-1.avif",
+        
     ];
 
     ?>
@@ -68,24 +65,24 @@
 
 
     <!-- ====================== Introduction Section ======================  -->
-    <section class="pt-10 overflow-hidden bg-gray-50 dark:bg-gray-800 my-1 sm:py-16">
+    <section class="pt-10 overflow-hidden bg-gray-50 dark:bg-gray-800 my-1 sm:py-16 py-8">
         <div class="px-4 mx-auto sm:px-6 lg:px-8 md:w-[80%] w-full">
             <div class="grid items-center grid-cols-1 md:grid-cols-2 gap-8">
 
                 <!-- Left text -->
                 <div>
-                    <h2 class="text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl"
+                    <h2 class="text-xl font-bold leading-tight text-black dark:text-white lg:text-3xl"
                         data-aos="fade-down" data-aos-duration="1000">
-                        Hey 👋 I am <br class="block sm:hidden" />John loan
+                        <!-- Hey  I am <br class="block sm:hidden" />John loan -->
+                        Hello👋 I am Arulnidhi Dr.Jc.S.M.Panneerselvam
                     </h2>
 
                     <p class="md:w-full mt-3 text-lg md:text-xl leading-relaxed text-gray-600 dark:text-gray-300 md:mt-8"
                         data-aos="fade-up" data-aos-duration="1000">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur cum voluptates unde neque
-                        ut facilis, vitae et dicta tenetur laboriosam.
+                        73 years young in experience, but forever 15 at heart. I dreamt of being a doctor, and today, as a health advocate, nothing fulfills me more than inspiring wellness in others.
                     </p>
 
-                    <p class="mt-4 text-xl text-gray-600 dark:text-gray-300 md:mt-8" data-aos="fade-up"
+                    <p class="mt-4 text-md md:text-xl text-gray-600 dark:text-gray-300 md:mt-8" data-aos="fade-up"
                         data-aos-duration="1000">
                         <span class="relative inline-block">
                             <span
@@ -161,9 +158,8 @@
             <!-- CARD 1 -->
             <div class="rounded overflow-hidden shadow-lg flex flex-col">
                 <div class="relative">
-                    <img class="w-full"
-                        src="./img/mudra.avif"
-                        alt="Sunset in the mountains" data-aos="zoom-in" data-aos-duration="2000">
+                    <img class="w-full" src="./img/mudra.avif" alt="Sunset in the mountains" data-aos="zoom-in"
+                        data-aos-duration="2000">
                     <div
                         class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
                     </div>
@@ -172,10 +168,9 @@
                     <a href="javascript:;"
                         class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2"
                         data-aos="fade-up" data-aos-duration="1000">Muthra</a>
-                    <p class="text-gray-500 text-sm text-justify" data-aos="fade-up" data-aos-duration="1000"
+                    <p class="text-gray-500 text-md text-justify" data-aos="fade-up" data-aos-duration="1000"
                         data-aos-delay="300">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply
-                        dummy text of the printing and typesetting industry.
+                        Help regulate glandular secretions in the body, restoring balance and supporting the healing of various diseases.
                     </p>
                 </div>
                 <div class="px-6 py-3 flex flex-row items-center justify-between bg-gray-100">
@@ -187,9 +182,8 @@
             <!-- CARD 2 -->
             <div class="rounded overflow-hidden shadow-lg flex flex-col">
                 <div class="relative">
-                    <img class="w-full"
-                        src="./img/accuprasure.avif"
-                        alt="Sunset in the mountains" data-aos="zoom-in" data-aos-duration="2000">
+                    <img class="w-full" src="./img/accuprasure.avif" alt="Sunset in the mountains" data-aos="zoom-in"
+                        data-aos-duration="2000">
                     <div
                         class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
                     </div>
@@ -198,10 +192,9 @@
                     <a href="#"
                         class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2"
                         data-aos="fade-up" data-aos-duration="1000">Accuprasure</a>
-                    <p class="text-gray-500 text-sm text-justify" data-aos="fade-up" data-aos-duration="1000"
+                    <p class="text-gray-500 text-md text-justify" data-aos="fade-up" data-aos-duration="1000"
                         data-aos-delay="300">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply
-                        dummy text of the printing and typesetting industry.
+                        By stimulating specific energy centers linked to internal organs, it becomes possible to detect imbalances and address them effectively within a short period.
                     </p>
                 </div>
                 <div class="px-6 py-3 flex flex-row items-center justify-between bg-gray-100">
@@ -214,9 +207,8 @@
             <!-- CARD 3 -->
             <div class="rounded overflow-hidden shadow-lg flex flex-col">
                 <div class="relative">
-                    <img class="w-full"
-                        src="./img/food.avif"
-                        alt="Sunset in the mountains" data-aos="zoom-in" data-aos-duration="2000">
+                    <img class="w-full" src="./img/food.avif" alt="Sunset in the mountains" data-aos="zoom-in"
+                        data-aos-duration="2000">
                     <div
                         class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
                     </div>
@@ -225,9 +217,9 @@
                     <a href="#"
                         class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2"
                         data-aos="fade-up" data-aos-duration="1000">Food</a>
-                    <p class="text-gray-500 text-sm text-jsustify" data-aos="fade-up" data-aos-duration="1000"
+                    <p class="text-gray-500 text-md text-justify" data-aos="fade-up" data-aos-duration="1000"
                         data-aos-delay="300">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        With simple dietary adjustments and training in fireless cooking methods, many chronic conditions such as diabetes, high blood pressure, heart problems, and body pain can be managed and improved.
                     </p>
                 </div>
                 <div class="px-6 py-3 flex flex-row items-center justify-between bg-gray-100">
@@ -259,14 +251,40 @@
     </div>
 
 
+    <!-- ================================== Photo Gallery Section ======================== -->
+    <div class="md:w-[80%] w-full mx-auto md:mb-8">
+        <div class="text-center py-4 mb-4" data-aos="fade-down" data-aos-duration="1000">
+            <h2 class="font-semibold text-3xl" data-aos="fade-down" data-aos-duration="1000">Our Gallery</h2>
+        </div>
+        <div class="running_slider">
+            <div class="running_slide-track">
+
+                <?php for ($i = 1; $i <= 12; $i++): ?>
+                    <div class="running_slide border-3 border-[#45994f] p-2 rounded-lg bg-[#f0fdf4]">
+                        <img src="./img/gallery/gallery-<?= $i ?>.avif" class="w-full"  alt="Gallery <?= $i ?>" />
+                    </div>
+                <?php endfor; ?>
+
+                <!-- Duplicate for seamless infinite scrolling -->
+                <?php for ($i = 1; $i <= 12; $i++): ?>
+                    <div class="running_slide">
+                        <img src="./img/gallery/gallery-<?= $i ?>.avif" class="w-full"  alt="Gallery <?= $i ?>" />
+                    </div>
+                <?php endfor; ?>
+            </div>
+        </div>
+    </div>
+
+
+
     <!-- ============================ Certificate Section =========================== -->
-    <div >
-        <div class="text-center py-4 mb-4">
+    <div>
+        <div class="text-center py-4 mt-4">
             <h2 class="font-semibold text-3xl" data-aos="fade-down" data-aos-duration="1000">Our Certifications</h2>
         </div>
         <div class="flex flex-wrap justify-center gap-4 p-4 mb-16">
             <?php foreach ($certificate as $img): ?>
-                <div class="flex justify-center items-center border h-32 w-48 bg-blue-100" data-aos="zoom-in"
+                <div class="flex justify-center items-center md:w-[30%] w-full bg-blue-100" data-aos="zoom-in"
                     data-aos-duration="1300">
                     <img class="h-auto max-w-full rounded-lg" src="<?= $img ?>" alt="Gallery image" />
                 </div>

@@ -13,45 +13,36 @@
     <?php
     $videos = [
         [
-            'title' => 'Video 1 Title',
+            'title' => 'Diabetic',
             'id' => '6KmsgkkccCM',
-            'summary' => 'Description for video 1.'
+            'summary' => 'One time food normal the sugar level. With a mudra.'
         ],
         [
-            'title' => 'Video 2 Title',
+            'title' => 'Heart problems ',
             'id' => '-s2BtYsmQ_Y',
-            'summary' => 'Description for video 2.'
+            'summary' => ' Panchacharam juice remove all ailments within 10 days + a  mudra'
         ],
         [
-            'title' => 'Video 3 Title',
+            'title' => 'cold and cough',
             'id' => 'zQbOpRvMeOk',
-            'summary' => 'Description for video 3.'
+            'summary' => 'Mudra helps relieve cold and cough by increasing the body&apos;s warmth and reducing mucus naturally.',
         ],
         [
-            'title' => 'Video 4 Title',
+            'title' => 'Kidney',
             'id' => 'Yb0TFX8ZDlA',
-            'summary' => 'Description for video 4.'
+            'summary' => ' Even dialysis can stop by cleaning the Kidneys easily'
         ],
         [
-            'title' => 'Video 5 Title',
+            'title' => 'Cholesterol',
             'id' => 'W4K56gC0vGI',
-            'summary' => 'Description for video 5.'
+            'summary' => 'Mudra  &  a food minimise the cholesterol within a week'
         ],
         [
-            'title' => 'Video 6 Title',
+            'title' => 'Body pain',
             'id' => '7uJAUF4pT5Y',
-            'summary' => 'Description for video 6.'
+            'summary' => 'All pains in body, removed within 3 days,, through an exercise and a drink'
         ],
-        [
-            'title' => 'Video 7 Title',
-            'id' => '3JhcdflXapg',
-            'summary' => 'Description for video 7.'
-        ],
-        [
-            'title' => 'Video 8 Title',
-            'id' => 'miJ9PiExZEo',
-            'summary' => 'Description for video 8.'
-        ],
+
     ];
     ?>
 
@@ -59,7 +50,7 @@
 
     <!-- =============== About us Banner ================= -->
     <div class="relative w-full mx-auto overflow-hidden" data-aos="fade-down" data-aos-duration="1000">
-        <img src="./img/intro-banner.avif" class="w-full" alt="about Banner">
+        <img src="./img/muthra_banner.avif" class="w-full" alt="about Banner">
         <div class="w-full h-full bg-black/30 z-20 absolute top-0 flex items-center justify-center">
             <nav class="flex" aria-label="Breadcrumb">
                 <ol class="inline-flex items-center space-x-1 md:space-x-3">
@@ -106,8 +97,29 @@
             </div>
         <?php endforeach; ?>
     </div>
-    <!-- END OF GRID -->
 
+    <!-- ======================== Q & A Video Section ==========================  -->
+    <div class="md:w-[80%] w-full mx-auto my-8">
+        <div class="text-center py-4 mt-4">
+            <h2 class="font-semibold text-3xl" data-aos="fade-down" data-aos-duration="1000">Q & A Videos</h2>
+        </div>
+        <div class="flex items-center justify-center" data-aos="zoom-in" data-aos-duration="1500">
+            <iframe class="rounded w-[350px] h-[300px] md:w-[700px] md:h-[400px] min-[2560px]:hidden"
+                src="https://www.youtube.com/embed/3JhcdflXapg?si=KWbMMTRKM6YZiA1p" title="YouTube video player"
+                frameborder="0" loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+
+            <iframe class="rounded w-[1300px] h-[800px] hidden min-[2560px]:block border border-red-500"
+                src="https://www.youtube.com/embed/3JhcdflXapg?si=KWbMMTRKM6YZiA1p" title="YouTube video player"
+                frameborder="0" loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+    </div>
 
 
     <?php include_once './_templates/cta.php'; ?>

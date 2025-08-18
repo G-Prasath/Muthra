@@ -43,16 +43,10 @@
                     data-aos="fade-up" data-aos-duration="2500">Foundation</h1>
 
                 <p class="mb-4 text-gray-300 leading-relaxed text-justify" data-aos="fade-up" data-aos-duration="2000">
-                    We are committed to delivering innovative solutions with a focus on quality and customer
-                    satisfaction. Our team of experts works tirelessly to bring your ideas to life and help your
-                    business grow. Join us on our journey to make a difference in the industry through creativity,
-                    dedication, and
-                    excellence.
+                   Selva Lakshmi Foundation offers simple, natural, and cost-free methods for healing through Mudras, Acupressure, and wholesome food practices - taught under the Rosini Mudra Training Centre.
                 </p>
                 <p class="mb-4 text-gray-300 leading-relaxed text-justify" data-aos="fade-up" data-aos-duration="2000">
-                    We are committed to delivering innovative solutions with a focus on quality and customer
-                    satisfaction. Our team of experts works tirelessly to bring your ideas to life and help your
-                    business grow.
+                    Students trained here gain the knowledge to become certified Health Consultants, empowering themselves and others with holistic wellness.
                 </p>
 
                 <div class="flex items-center justify-end w-full" data-aos="fade-up" data-aos-duration="1000">

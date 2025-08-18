@@ -1,44 +1,28 @@
 <?php
 $testimonials = [
     [
-        "img" => "https://randomuser.me/api/portraits/women/6.jpg",
-        "name" => "SynthGen AI",
-        "text" => "Listing on EliteAI.tools gave us a 40% boost in signups! The quality of traffic is incredible - these are users who are actually looking for AI solutions. Worth every penny!",
-        "contact" => "+91 999 555 1234",
-
+        "name" => "Arul Das",
+        "location" => "Malaysia",
+        "img" => "./img/info.png",
+        "contact" => "+60 13-6362431",
+        "audio" => "./uploads/Arul_Dos.opus",
+        "text" => "Great service!"
     ],
     [
-        "img" => "https://randomuser.me/api/portraits/men/24.jpg",
-        "name" => "NeuralScribe",
-        "text" => "Fast-tracking our listing was the best marketing decision we made. Went from zero to 500+ daily users in just two weeks! EliteAI.tools put us in front of the perfect audience.",
-        "contact" => "+91 999 888 1234",
+        "name" => "Krishnakumar",
+        "location" => "Malaysia",
+        "img" => "./img/info.png",
+        "contact" => "+60 12-3694072",
+        "audio" => "./uploads/Krishnakumar.opus",
+        "text" => "Great service!"
     ],
-    [
-        "img" => "https://randomuser.me/api/portraits/men/54.jpg",
-        "name" => "QuantumWrite",
-        "text" => "As a bootstrapped startup, we needed cost-effective promotion. The Boosted plan delivered incredible ROI - our demo requests increased 3x in the first month alone. Highly recommend!",
-        "contact" => "+91 999 888 1234",
-    ],
-    [
-        "img" => "https://randomuser.me/api/portraits/women/53.jpg",
-        "name" => "VoiceGenius",
-        "text" => "The SEO boost from being listed on EliteAI.tools is incredible. We've climbed to the first page for several key search terms. The quality of traffic converts at nearly 2x our other channels.",
-        "contact" => "+91 999 888 1234",
-    ],
-    [
-        "img" => "https://randomuser.me/api/portraits/women/43.jpg",
-        "name" => "DataSage",
-        "text" => "We tried several directories but EliteAI.tools stands out. The curation process means you're alongside other quality tools, which gives users confidence. Our conversions are up 35% from this traffic!",
-        "contact" => "+91 999 888 1234",
-    ],
-    [
-        "img" => "https://randomuser.me/api/portraits/men/62.jpg",
-        "name" => "CopyMuse",
-        "text" => "Investors actually mentioned seeing us on EliteAI.tools during our seed round! The directory has become a go-to resource for the industry. Still getting consistent traffic 6 months after listing.",
-        "contact" => "+91 999 888 1234",
-    ]
+   
 ];
+
+
 ?>
+
+
 
 
 
@@ -59,7 +43,7 @@ $testimonials = [
 
     <!-- =============== About us Banner ================= -->
     <div class="relative w-full mx-auto overflow-hidden" data-aos="fade-down" data-aos-duration="1000">
-        <img src="./img/intro-banner.avif" class="w-full" alt="about Banner">
+        <img src="./img/testimonials_banner.avif" class="w-full" alt="about Banner">
         <div class="w-full h-full bg-black/30 z-20 absolute top-0 flex items-center justify-center">
             <nav class="flex" aria-label="Breadcrumb">
                 <ol class="inline-flex items-center space-x-1 md:space-x-3">
@@ -113,16 +97,29 @@ $testimonials = [
                 <?php foreach ($testimonials as $t): ?>
                     <div
                         class="p-6 bg-white rounded-lg shadow-md transition-transform hover:shadow-lg hover:-translate-y-1">
+
+                        <!-- Profile -->
                         <div class="flex items-start mb-4">
                             <div class="flex-shrink-0 mr-4">
                                 <img class="w-12 h-12 rounded-full" src="<?= htmlspecialchars($t['img']) ?>"
                                     alt="Profile image" />
                             </div>
                             <div>
-                                <h3 class="font-bold"><?= htmlspecialchars($t['name']) ?></h3>
+                                <h3 class="font-bold"><?= htmlspecialchars($t['name']) ?> <span class="font-normal text-sm text-gray-700">(<?= htmlspecialchars($t['location']) ?>)</span></h3>
                             </div>
                         </div>
-                        <p class="text-gray-700 text-justify"><?= htmlspecialchars($t['text']) ?></p>
+
+                        <!-- Replace text with voice feedback -->
+                        <?php if (!empty($t['audio'])): ?>
+                            <audio controls class="w-full mt-2">
+                                <source src="<?= htmlspecialchars($t['audio']) ?>" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        <?php else: ?>
+                            <p class="text-gray-700 text-justify"><?= htmlspecialchars($t['text']) ?></p>
+                        <?php endif; ?>
+
+                        <!-- Contact -->
                         <div class="flex items-center mt-4 text-gray-500">
                             <?php if (!empty($t['contact'])): ?>
                                 <span class="text-sm">Contact : <?= htmlspecialchars($t['contact']) ?></span>
@@ -131,6 +128,7 @@ $testimonials = [
                     </div>
                 <?php endforeach; ?>
             </div>
+
         </div>
     </div>
 

@@ -210,3 +210,44 @@ body {
   width: 4px;
 }
 
+
+
+/* ============================ Photo Gallery ==================== */
+
+@keyframes scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(calc(-250px * 7)); }
+}
+
+.running_slider {
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+
+.running_slider .running_slide-track {
+  display: flex;
+  animation: scroll 40s linear infinite;
+  width: fit-content;
+  gap: 20px;
+}
+
+.running_slider .running_slide {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* ===================== FAQ ==========================  */
+.max-h-0 {
+	max-height: 0;
+}
+
+.group:focus .group-focus\:max-h-40 {
+	max-height: 10rem;
+}
+
+

@@ -138,8 +138,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // ======================== Navbar End ===========================
 
   // ======================= Banner Start ===========================
-   const carousel = document.getElementById("carousel");
-  // const slides = carousel.children;
+  const carousel = document.getElementById("carousel");
+  const slides = carousel.children;
   const totalSlides = slides.length;
 
   let index = 0;
@@ -149,18 +149,19 @@ document.addEventListener("DOMContentLoaded", function () {
     carousel.style.transform = `translateX(-${index * 100}%)`;
   }
 
-  document.getElementById("prevBtn").addEventListener("click", () => showSlide(index - 1));
-  document.getElementById("nextBtn").addEventListener("click", () => showSlide(index + 1));
+  document
+    .getElementById("prevBtn")
+    .addEventListener("click", () => showSlide(index - 1));
+  document
+    .getElementById("nextBtn")
+    .addEventListener("click", () => showSlide(index + 1));
 
   // Auto-slide every 5s
   setInterval(() => {
     showSlide(index + 1);
   }, 3000);
-  
+
   // ======================== Banner End ============================
-
-
-
 
   // ========================= Language Switcher Start =========================
 
@@ -192,5 +193,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
   observer.observe(document.body, { childList: true, subtree: true });
 });
-
-

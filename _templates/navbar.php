@@ -27,7 +27,7 @@
 
                     <a href="introduction.php"
                         class="text-gray-700 hover:text-green-600 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
-                        Intro
+                        Founder
                     </a>
 
                     <!-- Get Involved Dropdown -->
@@ -44,14 +44,14 @@
                                 class="flex items-center text-gray-700 text-sm p-2 hover:bg-green-50 transition-all duration-200">
                                 Muthra
                             </a>
-                            <a href="muthra_course.php"
+                            <!-- <a href="muthra_course.php"
                                 class="flex items-center text-gray-700 text-sm p-2 hover:bg-green-50 transition-all duration-200">
                                 Comming Soon ...
                             </a>
                             <a href="muthra_course.php"
                                 class="flex items-center text-gray-700 text-sm p-2 hover:bg-green-50 transition-all duration-200">
                                 Comming Soon ...
-                            </a>
+                            </a> -->
                         </div>
                     </div>
 
@@ -231,7 +231,7 @@
 
             <a href="introduction.php"
                 class="text-gray-700 hover:text-green-600 hover:bg-blue-50 block px-3 py-2 rounded-md text-base font-medium transition-all duration-200">
-                Intro
+                Founder
             </a>
 
 
@@ -246,7 +246,7 @@
                     <a href="muthra_course.php"
                         class="text-gray-600 hover:text-green-600 hover:bg-blue-50 block px-3 py-2 rounded-md text-sm transition-all duration-200">Muthra</a>
                 </div>
-                <div class="nested-menu ml-4 mt-2 space-y-1 border-l border-gray-200 pl-4">
+                <!-- <div class="nested-menu ml-4 mt-2 space-y-1 border-l border-gray-200 pl-4">
                     <a href="muthra_course.php"
                         class="text-gray-600 hover:text-green-600 hover:bg-blue-50 block px-3 py-2 rounded-md text-sm transition-all duration-200">Comming
                         soon ...</a>
@@ -255,7 +255,7 @@
                     <a href="muthra_course.php"
                         class="text-gray-600 hover:text-green-600 hover:bg-blue-50 block px-3 py-2 rounded-md text-sm transition-all duration-200">Comming
                         soon ...</a>
-                </div>
+                </div> -->
             </div>
 
 
@@ -279,8 +279,3 @@
     </div>
 </nav>
 
-
-
-<script>
-
-</script>

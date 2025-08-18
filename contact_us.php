@@ -15,7 +15,7 @@
 
     <!-- =============== About us Banner ================= -->
     <div class="relative w-full mx-auto overflow-hidden" data-aos="fade-down" data-aos-duration="1000">
-        <img src="./img/intro-banner.avif" class="w-full" alt="about Banner">
+        <img src="./img/contact_banner.avif" class="w-full" alt="about Banner">
         <div class="w-full h-full bg-black/30 z-20 absolute top-0 flex items-center justify-center">
             <nav class="flex" aria-label="Breadcrumb">
                 <ol class="inline-flex items-center space-x-1 md:space-x-3">
@@ -51,7 +51,7 @@
     <div class="py-16">
         <div class="flex bg-white rounded-lg shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
             <div class="hidden lg:block md:w-1/2 lg:w-[80%] bg-cover" data-aos="zoom-in" data-aos-duration="1300"
-                style="background-image:url('https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80')">
+                style="background-image:url('./img/contact-profile.avif')">
             </div>
             <div class="w-full p-8 md:w-1/2 lg:w-[80%]">
                 <h2 class="text-2xl font-semibold text-gray-700 text-center" data-aos="fade-up"
@@ -123,21 +123,19 @@
                     <div>
                         <div class="max-w-full mx-auto rounded-lg overflow-hidden">
                             <div class="px-6 py-4" data-aos="fade-up" data-aos-duration="1500">
-                                <h3 class="text-lg font-medium text-gray-900">Our Address</h3>
-                                <p class="mt-1 text-gray-600">123 Main St, San Francisco, CA 94105</p>
+                                <h3 class="text-lg font-medium text-gray-900">Address</h3>
+                                <p class="mt-1 text-gray-600">S. M. Panneerselvam, 3,Vivekananda road,<br/> P. N. Pudur, Coimbatore641041</p>
                             </div>
                             <div class="border-t border-gray-200 px-6 py-4" data-aos="fade-up" data-aos-duration="1300"
                                 data-aos-delay="300">
-                                <h3 class="text-lg font-medium text-gray-900">Hours</h3>
-                                <p class="mt-1 text-gray-600">Monday - Friday: 9am - 5pm</p>
-                                <p class="mt-1 text-gray-600">Saturday: 10am - 4pm</p>
-                                <p class="mt-1 text-gray-600">Sunday: Closed</p>
+                                <h3 class="text-lg font-medium text-gray-900">Visting Hours</h3>
+                                <p class="mt-1 text-gray-600">Monday - Sunday: 10am - 7pm</p>
                             </div>
                             <div class="border-t border-gray-200 px-6 py-4" data-aos="fade-up" data-aos-duration="1000"
                                 data-aos-delay="300">
                                 <h3 class="text-lg font-medium text-gray-900">Contact</h3>
-                                <p class="mt-1 text-gray-600">Email: info@example.com</p>
-                                <p class="mt-1 text-gray-600">Phone: +1 23494 34993</p>
+                                <p class="mt-1 text-gray-600"><a href="mailto:info@selvalakshmifoundation.org" target="_blank">Email: info@selvalakshmifoundation.org</a></p>
+                                <p class="mt-1 text-gray-600"><a href="tel:+918072887131" target="_blank">Phone: +91 8072 887 131</a></p>
                             </div>
                         </div>
                     </div>

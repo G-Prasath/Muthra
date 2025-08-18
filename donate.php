@@ -15,7 +15,7 @@
 
     <!-- =============== About us Banner ================= -->
     <div class="relative w-full mx-auto overflow-hidden" data-aos="fade-down" data-aos-duration="1000">
-        <img src="./img/intro-banner.avif" class="w-full" alt="about Banner">
+        <img src="./img/donate_banner.avif" class="w-full" alt="about Banner">
         <div class="w-full h-full bg-black/30 z-20 absolute top-0 flex items-center justify-center">
             <nav class="flex" aria-label="Breadcrumb">
                 <ol class="inline-flex items-center space-x-1 md:space-x-3">
@@ -46,8 +46,6 @@
 
     </div>
 
-
-
     <!-- ======================= Donate Section ==================   -->
     <div class="md:px-[15%] px-4 py-16 ">
         <div>
@@ -68,9 +66,9 @@
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg><span class="ml-3 ">You can donate through cheque or DD using the given
                                 address.</span></li>
-                        <li class="flex"><span class="ml-3 ">Addres Line 1</span></li>
-                        <li class="flex"><span class="ml-3 ">Addres Line 2</span></li>
-                        <li class="flex"><span class="ml-3 ">Addres Line 3</span></li>
+                        <li class="flex"><span class="ml-3 ">S. M. Panneerselvam</span></li>
+                        <li class="flex"><span class="ml-3 ">3,Vivekananda road, P. N. Pudur</span></li>
+                        <li class="flex"><span class="ml-3 ">Coimbatore - 641041</span></li>
 
                         <!-- <li class="flex"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -89,11 +87,11 @@
                         <span class="text-2xl font-normal tracking-tight">Account Number</span>
                     </p>
                     <ul role="list" class="mt-6 space-y-6">
-                        <li class="flex"><span class="ml-3 ">Name : </span></li>
-                        <li class="flex"><span class="ml-3 ">Bank : </span></li>
-                        <li class="flex"><span class="ml-3 ">A/C No : </span></li>
-                        <li class="flex"><span class="ml-3 ">IFCS Code : </span></li>
-                        <li class="flex"><span class="ml-3 ">Address : </span></li>
+                        <li class="flex"><span class="ml-3 "><b>Name</b> : S. M. Panneerselvam</span></li>
+                        <li class="flex"><span class="ml-3 "><b>Bank</b> : Canara Bank</span></li>
+                        <li class="flex"><span class="ml-3 "><b>A/C No</b> :  S/B 5374101004078</span></li>
+                        <li class="flex"><span class="ml-3 "><b>IFCS Code</b> : CNRB0005374</span></li>
+                        <li class="flex"><span class="ml-3 "><b>Branch</b> : P. N. Pudur branch</span></li>
 
                     </ul>
                 </div>
@@ -102,19 +100,18 @@
 
     </div>
 
-
     <!-- ========================= Thank You Section =========================  -->
     <div>
         <div class="flex justify-center items-center mb-16">
-            <div class="md:w-1/2 w-full shadow-xl rounded-2xl md:p-10 p-4 border">
+            <div class="md:w-1/2 w-full shadow-xl rounded-2xl md:p-5 p-4 border">
                 <div class="flex justify-around gap-11 items-center md:flex-row flex-col">
                     <div data-aos="zoom-in" data-aos-duration="1500">
-                        <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxMnx8cHJvZmlsZXxlbnwwfDB8fHwxNzA2NzQ5NjEyfDA&ixlib=rb-4.0.3&q=80&w=1080"
-                            alt="" class="rounded-2xl">
+                        <img src="./img/thankyou.avif"
+                            alt="" class="rounded-2xl w-[800px] aspect-square" >
                     </div>
                     <div>
                         <h5 class=" font-medium mb-3 md:text-3xl text-xl" data-aos="fade-up" data-aos-duration="1000">Thank For Donation</h5>
-                        <p class="md:font-normal font-thin text-justify text-sm" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, deserunt nobis. Similique ducimus pariatur ad. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore corporis ea minus voluptate deleniti. Debitis qui accusantium iure ea commodi?</p>
+                        <p class="md:font-normal font-thin text-justify text-sm" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Friends, remember this—charity may begin at home, but in truth, it begins in our minds. The moment we cultivate gratitude and say a simple ‘thank you,’ nature stands beside us. It unlocks its abundant treasures, blessing us with the greatest wealth of all—good health, prosperity, and peace of mind.</p>
                     </div>
                 </div>
             </div>
