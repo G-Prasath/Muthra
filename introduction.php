@@ -12,15 +12,9 @@
 <body>
 
     <?php
-    $books = [];
-    for ($i = 1; $i <= 34; $i++) {
-        $books[] = "./img/books/Book{$i}.avif";
-    }
-
     $certificate = [
         "./img/certificate-1.avif",
-        "./img/certificate-1.avif",
-        
+
     ];
 
     ?>
@@ -79,7 +73,8 @@
 
                     <p class="md:w-full mt-3 text-lg md:text-xl leading-relaxed text-gray-600 dark:text-gray-300 md:mt-8"
                         data-aos="fade-up" data-aos-duration="1000">
-                        73 years young in experience, but forever 15 at heart. I dreamt of being a doctor, and today, as a health advocate, nothing fulfills me more than inspiring wellness in others.
+                        73 years young in experience, but forever 15 at heart. I dreamt of being a doctor, and today, as
+                        a health advocate, nothing fulfills me more than inspiring wellness in others.
                     </p>
 
                     <p class="mt-4 text-md md:text-xl text-gray-600 dark:text-gray-300 md:mt-8" data-aos="fade-up"
@@ -114,10 +109,100 @@
         </div>
     </section>
 
-
-
     <!-- ============================= Services Section =========================== -->
     <div class="md:w-[80%] w-full mx-auto p-5 sm:p-10 md:p-16">
+
+        <div class="border-b mb-5 flex justify-between text-sm" data-aos="fade-down" data-aos-duration="1000">
+            <div class="text-indigo-600 flex items-center pb-2 pr-2 border-b-2 border-indigo-600 uppercase">
+                <a href="javascript:;" class="font-semibold inline-block">Services</a>
+            </div>
+        </div>
+
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+
+            <!-- CARD 1 -->
+            <div class="rounded overflow-hidden shadow-lg flex flex-col">
+                <div class="relative">
+                    <img class="w-full" src="./img/mudra.avif" alt="Sunset in the mountains" data-aos="zoom-in"
+                        data-aos-duration="2000">
+                    <div
+                        class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+                    </div>
+                </div>
+                <div class="px-6 py-4 mb-auto">
+                    <a href="javascript:;"
+                        class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2"
+                        data-aos="fade-up" data-aos-duration="1000">Muthra</a>
+                    <p class="text-gray-500 text-md text-justify" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-delay="300">
+                        Help regulate glandular secretions in the body, restoring balance and supporting the healing of
+                        various diseases.
+                    </p>
+                </div>
+                <div class="px-6 py-3 flex flex-row items-center justify-between bg-gray-100">
+                </div>
+            </div>
+
+
+
+            <!-- CARD 2 -->
+            <div class="rounded overflow-hidden shadow-lg flex flex-col">
+                <div class="relative">
+                    <img class="w-full" src="./img/accuprasure.avif" alt="Sunset in the mountains" data-aos="zoom-in"
+                        data-aos-duration="2000">
+                    <div
+                        class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+                    </div>
+                </div>
+                <div class="px-6 py-4 mb-auto">
+                    <a href="#"
+                        class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2"
+                        data-aos="fade-up" data-aos-duration="1000">Accuprasure</a>
+                    <p class="text-gray-500 text-md text-justify" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-delay="300">
+                        By stimulating specific energy centers linked to internal organs, it becomes possible to detect
+                        imbalances and address them effectively within a short period.
+                    </p>
+                </div>
+                <div class="px-6 py-3 flex flex-row items-center justify-between bg-gray-100">
+
+                </div>
+            </div>
+
+
+
+            <!-- CARD 3 -->
+            <div class="rounded overflow-hidden shadow-lg flex flex-col">
+                <div class="relative">
+                    <img class="w-full" src="./img/food.avif" alt="Sunset in the mountains" data-aos="zoom-in"
+                        data-aos-duration="2000">
+                    <div
+                        class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+                    </div>
+                </div>
+                <div class="px-6 py-4 mb-auto">
+                    <a href="#"
+                        class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2"
+                        data-aos="fade-up" data-aos-duration="1000">Food</a>
+                    <p class="text-gray-500 text-md text-justify" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-delay="300">
+                        With simple dietary adjustments and training in fireless cooking methods, many chronic
+                        conditions such as diabetes, high blood pressure, heart problems, and body pain can be managed
+                        and improved.
+                    </p>
+                </div>
+                <div class="px-6 py-3 flex flex-row items-center justify-between bg-gray-100">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ============================= Book Section =========================== -->
+    <div class="md:w-[80%] w-full mx-auto p-5 sm:p-10 md:p-12">
 
         <div class="border-b mb-5 flex justify-between text-sm" data-aos="fade-down" data-aos-duration="1000">
             <div class="text-indigo-600 flex items-center pb-2 pr-2 border-b-2 border-indigo-600 uppercase">
@@ -148,127 +233,69 @@
                         </path>
                     </g>
                 </svg>
-                <a href="javascript:;" class="font-semibold inline-block">Services</a>
+                <div class="font-semibold inline-block">Our Books</div>
             </div>
+            <a href="all_books.php"
+                class=" border border-black-500 inline-block px-3 py-2 my-2  font-semibold rounded-lg shadow-md hover:bg-[#f0fdf4] hover:border-green-500">
+                View All
+            </a>
         </div>
 
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
 
             <!-- CARD 1 -->
             <div class="rounded overflow-hidden shadow-lg flex flex-col">
                 <div class="relative">
-                    <img class="w-full" src="./img/mudra.avif" alt="Sunset in the mountains" data-aos="zoom-in"
+                    <img class="w-full" src="./img/books/Cover_Book_1.avif" alt="Sunset in the mountains" data-aos="zoom-in"
                         data-aos-duration="2000">
-                    <div
-                        class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
-                    </div>
-                </div>
-                <div class="px-6 py-4 mb-auto">
-                    <a href="javascript:;"
-                        class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2"
-                        data-aos="fade-up" data-aos-duration="1000">Muthra</a>
-                    <p class="text-gray-500 text-md text-justify" data-aos="fade-up" data-aos-duration="1000"
-                        data-aos-delay="300">
-                        Help regulate glandular secretions in the body, restoring balance and supporting the healing of various diseases.
-                    </p>
-                </div>
-                <div class="px-6 py-3 flex flex-row items-center justify-between bg-gray-100">
                 </div>
             </div>
-
-
-
-            <!-- CARD 2 -->
             <div class="rounded overflow-hidden shadow-lg flex flex-col">
                 <div class="relative">
-                    <img class="w-full" src="./img/accuprasure.avif" alt="Sunset in the mountains" data-aos="zoom-in"
+                    <img class="w-full" src="./img/books/Cover_Book_2.avif" alt="Sunset in the mountains" data-aos="zoom-in"
                         data-aos-duration="2000">
-                    <div
-                        class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
-                    </div>
-                </div>
-                <div class="px-6 py-4 mb-auto">
-                    <a href="#"
-                        class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2"
-                        data-aos="fade-up" data-aos-duration="1000">Accuprasure</a>
-                    <p class="text-gray-500 text-md text-justify" data-aos="fade-up" data-aos-duration="1000"
-                        data-aos-delay="300">
-                        By stimulating specific energy centers linked to internal organs, it becomes possible to detect imbalances and address them effectively within a short period.
-                    </p>
-                </div>
-                <div class="px-6 py-3 flex flex-row items-center justify-between bg-gray-100">
-
                 </div>
             </div>
-
-
-
-            <!-- CARD 3 -->
             <div class="rounded overflow-hidden shadow-lg flex flex-col">
                 <div class="relative">
-                    <img class="w-full" src="./img/food.avif" alt="Sunset in the mountains" data-aos="zoom-in"
+                    <img class="w-full" src="./img/books/Cover_Book_3.avif" alt="Sunset in the mountains" data-aos="zoom-in"
                         data-aos-duration="2000">
-                    <div
-                        class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
-                    </div>
                 </div>
-                <div class="px-6 py-4 mb-auto">
-                    <a href="#"
-                        class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2"
-                        data-aos="fade-up" data-aos-duration="1000">Food</a>
-                    <p class="text-gray-500 text-md text-justify" data-aos="fade-up" data-aos-duration="1000"
-                        data-aos-delay="300">
-                        With simple dietary adjustments and training in fireless cooking methods, many chronic conditions such as diabetes, high blood pressure, heart problems, and body pain can be managed and improved.
-                    </p>
-                </div>
-                <div class="px-6 py-3 flex flex-row items-center justify-between bg-gray-100">
+            </div>
+            <div class="rounded overflow-hidden shadow-lg flex flex-col">
+                <div class="relative">
+                    <img class="w-full" src="./img/books/Cover_Book_4.avif" alt="Sunset in the mountains" data-aos="zoom-in"
+                        data-aos-duration="2000">
                 </div>
             </div>
 
+
         </div>
 
-    </div>
-
-
-    <!-- ============================ Books Gallery =========================== -->
-    <div class="md:w-[80%] w-full mx-auto">
-        <div class="text-center py-4 mb-4" data-aos="fade-down" data-aos-duration="1000">
-            <h2 class="font-semibold text-3xl" data-aos="fade-down" data-aos-duration="1000">Our Books</h2>
-        </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:px-16 px-3 pb-16">
-            <?php foreach ($books as $img): ?>
-                <div class="group cursor-pointer relative" data-aos="zoom-in" data-aos-duration="1300">
-                    <img src="<?= $img ?>" alt="Gallery Image"
-                        class="w-full object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105" />
-                    <div
-                        class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                        <!-- Optional overlay content -->
-                    </div>
-                </div>
-            <?php endforeach; ?>
-        </div>
     </div>
 
 
     <!-- ================================== Photo Gallery Section ======================== -->
-    <div class="md:w-[80%] w-full mx-auto md:mb-8">
-        <div class="text-center py-4 mb-4" data-aos="fade-down" data-aos-duration="1000">
-            <h2 class="font-semibold text-3xl" data-aos="fade-down" data-aos-duration="1000">Our Gallery</h2>
+    <div class="md:w-[80%] w-full mx-auto p-5 sm:p-10 md:p-12">
+        <div class="border-b mb-5 flex justify-between text-sm" data-aos="fade-down" data-aos-duration="1000">
+            <div class="text-indigo-600 flex items-center pb-2 pr-2 border-b-2 border-indigo-600 uppercase">
+                <div class="font-semibold inline-block">Photo Gallery</div>
+            </div>
         </div>
         <div class="running_slider">
             <div class="running_slide-track">
 
                 <?php for ($i = 1; $i <= 12; $i++): ?>
                     <div class="running_slide border-3 border-[#45994f] p-2 rounded-lg bg-[#f0fdf4]">
-                        <img src="./img/gallery/gallery-<?= $i ?>.avif" class="w-full"  alt="Gallery <?= $i ?>" />
+                        <img src="./img/gallery/gallery-<?= $i ?>.avif" class="w-full" alt="Gallery <?= $i ?>" />
                     </div>
                 <?php endfor; ?>
 
                 <!-- Duplicate for seamless infinite scrolling -->
                 <?php for ($i = 1; $i <= 12; $i++): ?>
                     <div class="running_slide">
-                        <img src="./img/gallery/gallery-<?= $i ?>.avif" class="w-full"  alt="Gallery <?= $i ?>" />
+                        <img src="./img/gallery/gallery-<?= $i ?>.avif" class="w-full" alt="Gallery <?= $i ?>" />
                     </div>
                 <?php endfor; ?>
             </div>
@@ -278,13 +305,15 @@
 
 
     <!-- ============================ Certificate Section =========================== -->
-    <div>
-        <div class="text-center py-4 mt-4">
-            <h2 class="font-semibold text-3xl" data-aos="fade-down" data-aos-duration="1000">Our Certifications</h2>
+    <div class="md:w-[80%] w-full mx-auto p-5 sm:p-10 md:p-12">
+        <div class="border-b mb-5 flex justify-between text-sm" data-aos="fade-down" data-aos-duration="1000">
+            <div class="text-indigo-600 flex items-center pb-2 pr-2 border-b-2 border-indigo-600 uppercase">
+                <div class="font-semibold inline-block">Certificate</div>
+            </div>
         </div>
-        <div class="flex flex-wrap justify-center gap-4 p-4 mb-16">
+        <div class="flex flex-wrap justify-center gap-4 p-4">
             <?php foreach ($certificate as $img): ?>
-                <div class="flex justify-center items-center md:w-[30%] w-full bg-blue-100" data-aos="zoom-in"
+                <div class="flex justify-center items-center md:w-[50%] w-full bg-blue-100" data-aos="zoom-in"
                     data-aos-duration="1300">
                     <img class="h-auto max-w-full rounded-lg" src="<?= $img ?>" alt="Gallery image" />
                 </div>

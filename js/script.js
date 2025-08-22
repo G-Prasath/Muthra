@@ -193,3 +193,28 @@ document.addEventListener("DOMContentLoaded", function () {
 
   observer.observe(document.body, { childList: true, subtree: true });
 });
+
+// ====================== FAQ =========================
+document.querySelectorAll(".faq-btn").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const answer = btn.querySelector(".faq-answer");
+    const icon = btn.querySelector(".faq-icon");
+    const isOpen = !answer.classList.contains("max-h-0");
+
+    // Close all others
+    document.querySelectorAll(".faq-answer").forEach((a) => {
+      a.classList.add("max-h-0");
+      a.classList.remove("max-h-96");
+    });
+    document.querySelectorAll(".faq-icon").forEach((i) => {
+      i.textContent = "+"; // reset all to plus
+    });
+
+    // Toggle clicked one
+    if (!isOpen) {
+      answer.classList.remove("max-h-0");
+      answer.classList.add("max-h-96");
+      icon.textContent = "–"; // change to minus
+    }
+  });
+});

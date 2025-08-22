@@ -90,7 +90,7 @@
                         <li class="flex"><span class="ml-3 "><b>Name</b> : S. M. Panneerselvam</span></li>
                         <li class="flex"><span class="ml-3 "><b>Bank</b> : Canara Bank</span></li>
                         <li class="flex"><span class="ml-3 "><b>A/C No</b> :  S/B 5374101004078</span></li>
-                        <li class="flex"><span class="ml-3 "><b>IFCS Code</b> : CNRB0005374</span></li>
+                        <li class="flex"><span class="ml-3 "><b>IFC Code</b> : CNRB0005374</span></li>
                         <li class="flex"><span class="ml-3 "><b>Branch</b> : P. N. Pudur branch</span></li>
 
                     </ul>

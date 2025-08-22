@@ -62,7 +62,7 @@
                     <a href="#" class="text-xs text-center text-gray-500 uppercase">Send Your Enquiry via Email</a>
                     <span class="border-b w-1/5 lg:w-1/4"></span>
                 </div>
-                <form method="POST" action="contact_process.php" class="mt-6" data-aos="zoom-in"
+                <form method="POST" action="mail.php" class="mt-6" data-aos="zoom-in"
                     data-aos-duration="1000" data-aos-delay="600">
                     <div class="mt-4">
                         <label class="block text-gray-700 text-sm font-bold mb-2">Name</label>

@@ -207,12 +207,13 @@
     </div>
 
 
-    <!-- ===================================== Why Choose Us =====================================  -->
+    <!-- ===================================== FAQ =====================================  -->
     <div class="md:w-[80%] w-full mx-auto px-5 my-16">
 
-        <div class="text-center">
-            <h2 class="font-semibold text-3xl" data-aos="fade-down" data-aos-duration="1000">Frequently asked Questions
-            </h2>
+        <div class="border-b flex justify-between text-sm" data-aos="fade-down" data-aos-duration="1000">
+            <div class="text-indigo-600 flex items-center pb-2 pr-2 border-b-2 border-indigo-600 uppercase">
+                <div class="font-semibold inline-block">Frequently asked Questions</div>
+            </div>
         </div>
 
 
@@ -221,17 +222,12 @@
             <!-- Component Start -->
             <div class="flex flex-col">
                 <?php foreach ($faqs as $faq): ?>
-                    <button class="group border border-black focus:outline-none my-1 rounded-lg">
+                    <button class="faq-btn group border border-black focus:outline-none my-1 rounded-lg w-full text-left">
                         <div class="flex items-center justify-between h-12 px-3 font-semibold hover:bg-gray-200">
                             <span class="truncate"><?= htmlspecialchars($faq['q']) ?></span>
-                            <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 
-                        10.586l3.293-3.293a1 1 0 111.414 
-                        1.414l-4 4a1 1 0 01-1.414 
-                        0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                            </svg>
+                            <span class="faq-icon text-xl font-bold">+</span>
                         </div>
-                        <div class="max-h-0 overflow-hidden duration-300 group-focus:max-h-96">
+                        <div class="faq-answer max-h-0 overflow-hidden duration-300">
                             <p class="text-md text-justify text-gray-500 p-5">
                                 <?= htmlspecialchars($faq['a']) ?>
                             </p>

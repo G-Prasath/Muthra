@@ -50,9 +50,10 @@
                 </p>
 
                 <div class="flex items-center justify-end w-full" data-aos="fade-up" data-aos-duration="1000">
-                    <a href="contact.php"
+                    <a href="https://calendly.com/selvalakshmi-foundation/30min"
+                        target="_blank"
                         class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg mt-8 transition duration-300">
-                        Book
+                        Appointment
                     </a>
                 </div>
             </div>

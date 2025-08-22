@@ -31,13 +31,13 @@
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
             <h3 class="text-xl text-[#318e3d] mb-6 border-b-2 text-[#318e3d] pb-2">Usefull Links</h3>
             <ul class="space-y-3">
-                <li><a href="#"
+                <li><a href="introduction.php"
                         class="flex items-center gap-2 opacity-90 hover:opacity-100 hover:translate-x-1 transition text-gray-700 text-md font-medium"><i
                             class="fas fa-chevron-right text-[#318e3d]"></i> Founder</a></li>
-                <li><a href="#"
+                <li><a href="about_us.php"
                         class="flex items-center gap-2 opacity-90 hover:opacity-100 hover:translate-x-1 transition text-gray-700 text-md font-medium"><i
                             class="fas fa-chevron-right text-[#318e3d]"></i> About Us</a></li>
-                <li><a href="#"
+                <li><a href="contact_us.php"
                         class="flex items-center gap-2 opacity-90 hover:opacity-100 hover:translate-x-1 transition text-gray-700 text-md font-medium"><i
                             class="fas fa-chevron-right text-[#318e3d]"></i> Contact Us</a></li>
             </ul>
@@ -94,7 +94,7 @@
             </a>
         </div>
 
-        <p class="mb-4">© 2025 SELVALAKSHMIFOUNDATION. All Rights Reserved. | Designed with <i class="fas fa-heart text-[#318e3d]"></i>
-            by Our Team</p>
+        <p class="mb-4">© 2025 SELVALAKSHMIFOUNDATION. All Rights Reserved. | Design by <i class="fas fa-heart text-[#318e3d]"></i>
+           Endless Spark</p>
     </div>
 </footer>

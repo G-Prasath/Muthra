@@ -5,7 +5,7 @@ $testimonials = [
         "location" => "Malaysia",
         "img" => "./img/info.png",
         "contact" => "+60 13-6362431",
-        "audio" => "./uploads/Arul_Dos.opus",
+        "audio" => "./uploads/Arul_Dos.mp3",
         "text" => "Great service!"
     ],
     [
@@ -13,10 +13,42 @@ $testimonials = [
         "location" => "Malaysia",
         "img" => "./img/info.png",
         "contact" => "+60 12-3694072",
-        "audio" => "./uploads/Krishnakumar.opus",
+        "audio" => "./uploads/Krishnakumar.mp3",
         "text" => "Great service!"
     ],
-   
+    [
+        "name" => "Prema",
+        "location" => "Malaysia",
+        "img" => "./img/info.png",
+        "contact" => "+60 16 2390594",
+        "audio" => "./uploads/Prema.mp3",
+        "text" => "Great service!"
+    ],
+    [
+        "name" => "Jayanthi",
+        "location" => "Malaysia",
+        "img" => "./img/info.png",
+        "contact" => "+60 12 2876470",
+        "audio" => "./uploads/Jayanthi.mp3",
+        "text" => "Great service!"
+    ],
+    [
+        "name" => "Murugan",
+        "location" => "Malaysia",
+        "img" => "./img/info.png",
+        "contact" => "+60 1139 784267",
+        "audio" => "./uploads/Murugan.mp3",
+        "text" => "Great service!"
+    ],
+    [
+        "name" => "Leelavathy",
+        "location" => "Malaysia",
+        "img" => "./img/info.png",
+        "contact" => "+60 123005 300",
+        "audio" => "./uploads/Leelavathy.mp3",
+        "text" => "Great service!"
+    ],
+
 ];
 
 
@@ -105,7 +137,9 @@ $testimonials = [
                                     alt="Profile image" />
                             </div>
                             <div>
-                                <h3 class="font-bold"><?= htmlspecialchars($t['name']) ?> <span class="font-normal text-sm text-gray-700">(<?= htmlspecialchars($t['location']) ?>)</span></h3>
+                                <h3 class="font-bold"><?= htmlspecialchars($t['name']) ?> <span
+                                        class="font-normal text-sm text-gray-700">(<?= htmlspecialchars($t['location']) ?>)</span>
+                                </h3>
                             </div>
                         </div>
 

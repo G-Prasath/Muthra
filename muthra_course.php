@@ -98,6 +98,26 @@
         <?php endforeach; ?>
     </div>
 
+
+
+    <!-- ========================= Google Form Link =========================  -->
+    <section class="w-full bg-gray-50 py-12 px-4 flex justify-center items-center">
+        <div class="w-full max-w-5xl bg-white rounded-2xl shadow-lg p-6 border border-green-500">
+            <h2 class="text-xl font-bold text-center text-gray-800 mb-6">
+                Course Registration Form
+            </h2>
+
+            <!-- Responsive Google Form -->
+            <a href="https://forms.gle/2ZTCLBhKgVpR9X5b7" target="_blank"
+                class="flex justify-center px-6 py-3 w-full hover:bg-green-500 border border-green-500 font-semibold rounded-lg shadow-md bg-green-600 text-white transition duration-300">
+                Click Here
+            </a>
+        </div>
+    </section>
+
+
+
+
     <!-- ======================== Q & A Video Section ==========================  -->
     <div class="md:w-[80%] w-full mx-auto my-8">
         <div class="text-center py-4 mt-4">
