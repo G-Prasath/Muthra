@@ -34,7 +34,7 @@
     <!-- ========================== Banner End ======================== -->
 
     <!-- ========================= About Section Start =========================  -->
-    <section class="relative bg-gray-900 text-white md:py-16 md:px-8 py-8 px-4 overflow-hidden">
+    <section loading="lazy" class="relative bg-gray-900 text-white md:py-16 md:px-8 py-8 px-4 overflow-hidden">
         <!-- Container Content -->
         <div class="md:w-[80%] w-full mx-auto flex flex-col md:flex-row items-center md:items-center md:space-x-12">
             <!-- Text Content -->

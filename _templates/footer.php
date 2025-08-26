@@ -1,5 +1,5 @@
 <!-- Footer Section -->
-<footer class="relative bg-white pt-16 pb-4 w-full">
+<footer loading="lazy" class="relative bg-white pt-16 pb-4 w-full">
 
     <div class="md:w-[80%] w-full mx-auto px-5 grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-10 relative z-10">
         <!-- About -->
